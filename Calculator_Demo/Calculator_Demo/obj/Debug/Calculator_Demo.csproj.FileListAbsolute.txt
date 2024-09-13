@@ -1,0 +1,10 @@
+E:\LTMang\Buoi2\Calculator_Demo\Calculator_Demo\bin\Debug\Calculator_Demo.exe.config
+E:\LTMang\Buoi2\Calculator_Demo\Calculator_Demo\bin\Debug\Calculator_Demo.exe
+E:\LTMang\Buoi2\Calculator_Demo\Calculator_Demo\bin\Debug\Calculator_Demo.pdb
+E:\LTMang\Buoi2\Calculator_Demo\Calculator_Demo\obj\Debug\Calculator_Demo.csproj.AssemblyReference.cache
+E:\LTMang\Buoi2\Calculator_Demo\Calculator_Demo\obj\Debug\Calculator_Demo.Form1.resources
+E:\LTMang\Buoi2\Calculator_Demo\Calculator_Demo\obj\Debug\Calculator_Demo.Properties.Resources.resources
+E:\LTMang\Buoi2\Calculator_Demo\Calculator_Demo\obj\Debug\Calculator_Demo.csproj.GenerateResource.cache
+E:\LTMang\Buoi2\Calculator_Demo\Calculator_Demo\obj\Debug\Calculator_Demo.csproj.CoreCompileInputs.cache
+E:\LTMang\Buoi2\Calculator_Demo\Calculator_Demo\obj\Debug\Calculator_Demo.exe
+E:\LTMang\Buoi2\Calculator_Demo\Calculator_Demo\obj\Debug\Calculator_Demo.pdb
