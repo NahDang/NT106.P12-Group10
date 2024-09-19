@@ -8,3 +8,13 @@ E:\LTMang\Buoi3\FileExplorer\FileExplorer\obj\Debug\FileExplorer.csproj.Generate
 E:\LTMang\Buoi3\FileExplorer\FileExplorer\obj\Debug\FileExplorer.csproj.CoreCompileInputs.cache
 E:\LTMang\Buoi3\FileExplorer\FileExplorer\obj\Debug\FileExplorer.exe
 E:\LTMang\Buoi3\FileExplorer\FileExplorer\obj\Debug\FileExplorer.pdb
+E:\NT106-DoAn\NT106\Week 3\FileExplorer\FileExplorer\bin\Debug\FileExplorer.exe.config
+E:\NT106-DoAn\NT106\Week 3\FileExplorer\FileExplorer\bin\Debug\FileExplorer.exe
+E:\NT106-DoAn\NT106\Week 3\FileExplorer\FileExplorer\bin\Debug\FileExplorer.pdb
+E:\NT106-DoAn\NT106\Week 3\FileExplorer\FileExplorer\obj\Debug\FileExplorer.csproj.AssemblyReference.cache
+E:\NT106-DoAn\NT106\Week 3\FileExplorer\FileExplorer\obj\Debug\FileExplorer.Form1.resources
+E:\NT106-DoAn\NT106\Week 3\FileExplorer\FileExplorer\obj\Debug\FileExplorer.Properties.Resources.resources
+E:\NT106-DoAn\NT106\Week 3\FileExplorer\FileExplorer\obj\Debug\FileExplorer.csproj.GenerateResource.cache
+E:\NT106-DoAn\NT106\Week 3\FileExplorer\FileExplorer\obj\Debug\FileExplorer.csproj.CoreCompileInputs.cache
+E:\NT106-DoAn\NT106\Week 3\FileExplorer\FileExplorer\obj\Debug\FileExplorer.exe
+E:\NT106-DoAn\NT106\Week 3\FileExplorer\FileExplorer\obj\Debug\FileExplorer.pdb

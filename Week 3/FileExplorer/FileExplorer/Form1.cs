@@ -42,5 +42,10 @@ namespace FileExplorer
             if (webBrowser.CanGoForward)
                 webBrowser.GoForward();
         }
+
+        private void webBrowser_DocumentCompleted(object sender, WebBrowserDocumentCompletedEventArgs e)
+        {
+            ContextMenuStrip c = new ContextMenuStrip(); 
+        }
     }
 }
