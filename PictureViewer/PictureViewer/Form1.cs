@@ -19,7 +19,12 @@ namespace PictureViewer
         private FlowLayoutPanel flowLayoutPanel = new FlowLayoutPanel();
         public Form1()
         {
-            InitializeComponent();
+         InitializeComponent();
+            flowLayoutPanel2.PreviewKeyDown += new PreviewKeyDownEventHandler(flowLayoutPanel2_PreviewKeyDown);
+            flowLayoutPanel2.KeyDown += new KeyEventHandler(flowLayoutPanel2_KeyDown);
+            flowLayoutPanel2.TabStop = true;
+            flowLayoutPanel2.Focus();
+
         }
 
         private void button1_Click(object sender, EventArgs e)
@@ -48,6 +53,7 @@ namespace PictureViewer
                 currentImageIndex = 0;
                 pictureBox1.Image = Image.FromFile(imagePaths[currentImageIndex]);
             }
+            flowLayoutPanel.Focus();
         }
         private void pictureBox_Click(object sender, EventArgs e)
         {
@@ -55,9 +61,29 @@ namespace PictureViewer
             int index = flowLayoutPanel2.Controls.IndexOf(pictureBox);
             currentImageIndex = index;
             pictureBox1.Image = Image.FromFile(imagePaths[currentImageIndex]);
+            flowLayoutPanel2.Focus();
         }
 
         private void Form1_KeyDown(object sender, KeyEventArgs e)
+        {
+            if (e.KeyCode == Keys.Left)
+            {   
+                if (currentImageIndex >0)
+                {
+                    currentImageIndex--;
+                    pictureBox1.Image = Image.FromFile(imagePaths[currentImageIndex]);
+                }
+            }
+            else if (e.KeyCode == Keys.Right)
+            {
+                if (currentImageIndex < imagePaths.Count - 1)
+                {
+                    currentImageIndex++;
+                    pictureBox1.Image = Image.FromFile(imagePaths[currentImageIndex]);
+                }
+            }
+        }
+        private void flowLayoutPanel2_KeyDown(object sender, KeyEventArgs e)
         {
             if (e.KeyCode == Keys.Left)
             {
@@ -76,10 +102,16 @@ namespace PictureViewer
                 }
             }
         }
+        private void flowLayoutPanel2_PreviewKeyDown(object sender, PreviewKeyDownEventArgs e)
+        {
+            if (e.KeyCode == Keys.Left || e.KeyCode == Keys.Right)
+            {
+                e.IsInputKey = true;
+            }
+        }
 
         private void flowLayoutPanel2_Paint(object sender, PaintEventArgs e)
         {
-
         }
     }
 }
