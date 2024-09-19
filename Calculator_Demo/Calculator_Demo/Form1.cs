@@ -142,6 +142,11 @@ namespace Calculator_Demo
                     hienthi.Text = sothu2.ToString();
                 }
             }
+            if(pheptinh == "mod")
+            {
+                sothu2=sothu1%float.Parse(hienthi.Text);
+                hienthi.Text = sothu2.ToString();
+            }
         }
 
         private void button12_Click(object sender, EventArgs e)
@@ -188,6 +193,13 @@ namespace Calculator_Demo
             {
                 return n * FactorialRecursive(n - 1);
             }
+        }
+
+        private void button18_Click(object sender, EventArgs e)
+        {
+            pheptinh = "mod";
+            sothu1 = float.Parse(hienthi.Text);
+            hienthi.Clear();
         }
 
         private void button8_Click(object sender, EventArgs e)

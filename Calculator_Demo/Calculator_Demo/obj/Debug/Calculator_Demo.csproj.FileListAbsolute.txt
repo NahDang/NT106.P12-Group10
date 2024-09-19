@@ -8,3 +8,13 @@ E:\LTMang\Buoi2\Calculator_Demo\Calculator_Demo\obj\Debug\Calculator_Demo.csproj
 E:\LTMang\Buoi2\Calculator_Demo\Calculator_Demo\obj\Debug\Calculator_Demo.csproj.CoreCompileInputs.cache
 E:\LTMang\Buoi2\Calculator_Demo\Calculator_Demo\obj\Debug\Calculator_Demo.exe
 E:\LTMang\Buoi2\Calculator_Demo\Calculator_Demo\obj\Debug\Calculator_Demo.pdb
+E:\NT106-DoAn\NT106\Calculator_Demo\Calculator_Demo\bin\Debug\Calculator_Demo.exe.config
+E:\NT106-DoAn\NT106\Calculator_Demo\Calculator_Demo\bin\Debug\Calculator_Demo.exe
+E:\NT106-DoAn\NT106\Calculator_Demo\Calculator_Demo\bin\Debug\Calculator_Demo.pdb
+E:\NT106-DoAn\NT106\Calculator_Demo\Calculator_Demo\obj\Debug\Calculator_Demo.csproj.AssemblyReference.cache
+E:\NT106-DoAn\NT106\Calculator_Demo\Calculator_Demo\obj\Debug\Calculator_Demo.Form1.resources
+E:\NT106-DoAn\NT106\Calculator_Demo\Calculator_Demo\obj\Debug\Calculator_Demo.Properties.Resources.resources
+E:\NT106-DoAn\NT106\Calculator_Demo\Calculator_Demo\obj\Debug\Calculator_Demo.csproj.GenerateResource.cache
+E:\NT106-DoAn\NT106\Calculator_Demo\Calculator_Demo\obj\Debug\Calculator_Demo.csproj.CoreCompileInputs.cache
+E:\NT106-DoAn\NT106\Calculator_Demo\Calculator_Demo\obj\Debug\Calculator_Demo.exe
+E:\NT106-DoAn\NT106\Calculator_Demo\Calculator_Demo\obj\Debug\Calculator_Demo.pdb
