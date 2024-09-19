@@ -27,7 +27,7 @@ namespace FileExplorer
                     webBrowser.Url = new Uri(fbd.SelectedPath);
                     textPath.Text = fbd.SelectedPath;
                 }
-                
+
             }
         }
 
@@ -45,7 +45,6 @@ namespace FileExplorer
 
         private void webBrowser_DocumentCompleted(object sender, WebBrowserDocumentCompletedEventArgs e)
         {
-            ContextMenuStrip c = new ContextMenuStrip(); 
         }
     }
 }
