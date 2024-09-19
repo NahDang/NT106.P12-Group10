@@ -1,0 +1,10 @@
+E:\LTMang\Buoi3\FileExplorer\FileExplorer\bin\Debug\FileExplorer.exe.config
+E:\LTMang\Buoi3\FileExplorer\FileExplorer\bin\Debug\FileExplorer.exe
+E:\LTMang\Buoi3\FileExplorer\FileExplorer\bin\Debug\FileExplorer.pdb
+E:\LTMang\Buoi3\FileExplorer\FileExplorer\obj\Debug\FileExplorer.csproj.AssemblyReference.cache
+E:\LTMang\Buoi3\FileExplorer\FileExplorer\obj\Debug\FileExplorer.Form1.resources
+E:\LTMang\Buoi3\FileExplorer\FileExplorer\obj\Debug\FileExplorer.Properties.Resources.resources
+E:\LTMang\Buoi3\FileExplorer\FileExplorer\obj\Debug\FileExplorer.csproj.GenerateResource.cache
+E:\LTMang\Buoi3\FileExplorer\FileExplorer\obj\Debug\FileExplorer.csproj.CoreCompileInputs.cache
+E:\LTMang\Buoi3\FileExplorer\FileExplorer\obj\Debug\FileExplorer.exe
+E:\LTMang\Buoi3\FileExplorer\FileExplorer\obj\Debug\FileExplorer.pdb
