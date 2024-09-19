@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
 using System.Drawing;
+using System.Drawing.Text;
 using System.Linq;
 using System.Security.Cryptography;
 using System.Text;
@@ -13,6 +14,9 @@ namespace PictureViewer
 {
     public partial class Form1 : Form
     {
+        private List<string> imagePaths = new List<string>();
+        private int currentImageIndex = -1;
+        private FlowLayoutPanel flowLayoutPanel = new FlowLayoutPanel();
         public Form1()
         {
             InitializeComponent();
@@ -28,6 +32,53 @@ namespace PictureViewer
             {
                 pictureBox1.Image=Image.FromFile(o.FileName);
             }
+            imagePaths.Add(o.FileName);
+            PictureBox pictureBox = new PictureBox();
+            pictureBox.Image = Image.FromFile(o.FileName);
+            pictureBox.SizeMode = PictureBoxSizeMode.Zoom;
+            pictureBox.Width = 100;
+            pictureBox.Height = 100;
+            pictureBox.Click += new EventHandler(pictureBox_Click);
+            flowLayoutPanel2.Controls.Add(pictureBox);
+
+            flowLayoutPanel2.Dock = DockStyle.Top;
+            Controls.Add(flowLayoutPanel2);
+            if (currentImageIndex == -1)
+            {
+                currentImageIndex = 0;
+                pictureBox1.Image = Image.FromFile(imagePaths[currentImageIndex]);
+            }
+        }
+        private void pictureBox_Click(object sender, EventArgs e)
+        {
+            PictureBox pictureBox = (PictureBox)sender;
+            int index = flowLayoutPanel2.Controls.IndexOf(pictureBox);
+            currentImageIndex = index;
+            pictureBox1.Image = Image.FromFile(imagePaths[currentImageIndex]);
+        }
+
+        private void Form1_KeyDown(object sender, KeyEventArgs e)
+        {
+            if (e.KeyCode == Keys.Left)
+            {
+                if (currentImageIndex > 0)
+                {
+                    currentImageIndex--;
+                    pictureBox1.Image = Image.FromFile(imagePaths[currentImageIndex]);
+                }
+            }
+            else if (e.KeyCode == Keys.Right)
+            {
+                if (currentImageIndex < imagePaths.Count - 1)
+                {
+                    currentImageIndex++;
+                    pictureBox1.Image = Image.FromFile(imagePaths[currentImageIndex]);
+                }
+            }
+        }
+
+        private void flowLayoutPanel2_Paint(object sender, PaintEventArgs e)
+        {
 
         }
     }
