@@ -48,7 +48,7 @@
             // 
             this.buttonBack.BackColor = System.Drawing.SystemColors.ControlLight;
             this.buttonBack.Location = new System.Drawing.Point(8, 15);
-            this.buttonBack.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.buttonBack.Margin = new System.Windows.Forms.Padding(2);
             this.buttonBack.Name = "buttonBack";
             this.buttonBack.Size = new System.Drawing.Size(41, 26);
             this.buttonBack.TabIndex = 0;
@@ -60,7 +60,7 @@
             // 
             this.buttonForward.BackColor = System.Drawing.SystemColors.ControlLight;
             this.buttonForward.Location = new System.Drawing.Point(47, 15);
-            this.buttonForward.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.buttonForward.Margin = new System.Windows.Forms.Padding(2);
             this.buttonForward.Name = "buttonForward";
             this.buttonForward.Size = new System.Drawing.Size(40, 26);
             this.buttonForward.TabIndex = 1;
@@ -72,7 +72,7 @@
             // 
             this.buttonOpen.BackColor = System.Drawing.SystemColors.ControlLight;
             this.buttonOpen.Location = new System.Drawing.Point(745, 15);
-            this.buttonOpen.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.buttonOpen.Margin = new System.Windows.Forms.Padding(2);
             this.buttonOpen.Name = "buttonOpen";
             this.buttonOpen.Size = new System.Drawing.Size(93, 26);
             this.buttonOpen.TabIndex = 2;
@@ -93,7 +93,7 @@
             // textPath
             // 
             this.textPath.Location = new System.Drawing.Point(132, 19);
-            this.textPath.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.textPath.Margin = new System.Windows.Forms.Padding(2);
             this.textPath.Multiline = true;
             this.textPath.Name = "textPath";
             this.textPath.ReadOnly = true;
@@ -102,8 +102,9 @@
             // 
             // webBrowser
             // 
+            this.webBrowser.ContextMenuStrip = this.contextMenuStrip1;
             this.webBrowser.Location = new System.Drawing.Point(8, 45);
-            this.webBrowser.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.webBrowser.Margin = new System.Windows.Forms.Padding(2);
             this.webBrowser.MinimumSize = new System.Drawing.Size(13, 13);
             this.webBrowser.Name = "webBrowser";
             this.webBrowser.Size = new System.Drawing.Size(830, 519);
@@ -119,30 +120,31 @@
             this.deleteToolStripMenuItem,
             this.cutToolStripMenuItem});
             this.contextMenuStrip1.Name = "contextMenuStrip1";
-            this.contextMenuStrip1.Size = new System.Drawing.Size(121, 100);
+            this.contextMenuStrip1.Size = new System.Drawing.Size(211, 128);
             // 
             // copyToolStripMenuItem
             // 
             this.copyToolStripMenuItem.Name = "copyToolStripMenuItem";
-            this.copyToolStripMenuItem.Size = new System.Drawing.Size(120, 24);
+            this.copyToolStripMenuItem.Size = new System.Drawing.Size(210, 24);
             this.copyToolStripMenuItem.Text = "&copy";
+            this.copyToolStripMenuItem.Click += new System.EventHandler(this.copyToolStripMenuItem_Click);
             // 
             // pasteToolStripMenuItem
             // 
             this.pasteToolStripMenuItem.Name = "pasteToolStripMenuItem";
-            this.pasteToolStripMenuItem.Size = new System.Drawing.Size(120, 24);
+            this.pasteToolStripMenuItem.Size = new System.Drawing.Size(210, 24);
             this.pasteToolStripMenuItem.Text = "&paste";
             // 
             // deleteToolStripMenuItem
             // 
             this.deleteToolStripMenuItem.Name = "deleteToolStripMenuItem";
-            this.deleteToolStripMenuItem.Size = new System.Drawing.Size(120, 24);
+            this.deleteToolStripMenuItem.Size = new System.Drawing.Size(210, 24);
             this.deleteToolStripMenuItem.Text = "&delete";
             // 
             // cutToolStripMenuItem
             // 
             this.cutToolStripMenuItem.Name = "cutToolStripMenuItem";
-            this.cutToolStripMenuItem.Size = new System.Drawing.Size(120, 24);
+            this.cutToolStripMenuItem.Size = new System.Drawing.Size(210, 24);
             this.cutToolStripMenuItem.Text = "&cut";
             // 
             // Form1
@@ -156,7 +158,7 @@
             this.Controls.Add(this.buttonOpen);
             this.Controls.Add(this.buttonForward);
             this.Controls.Add(this.buttonBack);
-            this.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.Margin = new System.Windows.Forms.Padding(2);
             this.Name = "Form1";
             this.Text = "File Explorer";
             this.contextMenuStrip1.ResumeLayout(false);

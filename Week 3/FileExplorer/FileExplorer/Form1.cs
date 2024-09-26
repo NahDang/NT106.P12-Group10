@@ -45,7 +45,12 @@ namespace FileExplorer
 
         private void webBrowser_DocumentCompleted(object sender, WebBrowserDocumentCompletedEventArgs e)
         {
-            ContextMenuStrip c = new ContextMenuStrip(); 
+            
+        }
+
+        private void copyToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }
