@@ -8,3 +8,14 @@ E:\NT106\Lab01\Lab01\obj\Debug\Lab01.csproj.GenerateResource.cache
 E:\NT106\Lab01\Lab01\obj\Debug\Lab01.csproj.CoreCompileInputs.cache
 E:\NT106\Lab01\Lab01\obj\Debug\Lab01.exe
 E:\NT106\Lab01\Lab01\obj\Debug\Lab01.pdb
+E:\GitHubAssignment\NT106.P12-Group10\lab01\1111\Lab01\obj\Debug\Lab01.csproj.AssemblyReference.cache
+E:\GitHubAssignment\NT106.P12-Group10\lab01\1111\Lab01\obj\Debug\Lab01.BangDieuKhien.resources
+E:\GitHubAssignment\NT106.P12-Group10\lab01\1111\Lab01\obj\Debug\Lab01.Properties.Resources.resources
+E:\GitHubAssignment\NT106.P12-Group10\lab01\1111\Lab01\obj\Debug\Lab01.csproj.GenerateResource.cache
+E:\GitHubAssignment\NT106.P12-Group10\lab01\1111\Lab01\obj\Debug\Lab01.csproj.CoreCompileInputs.cache
+E:\GitHubAssignment\NT106.P12-Group10\lab01\1111\Lab01\obj\Debug\Lab01.exe
+E:\GitHubAssignment\NT106.P12-Group10\lab01\1111\Lab01\obj\Debug\Lab01.pdb
+E:\GitHubAssignment\NT106.P12-Group10\lab01\1111\Lab01\bin\Debug\Lab01.exe.config
+E:\GitHubAssignment\NT106.P12-Group10\lab01\1111\Lab01\bin\Debug\Lab01.exe
+E:\GitHubAssignment\NT106.P12-Group10\lab01\1111\Lab01\bin\Debug\Lab01.pdb
+E:\GitHubAssignment\NT106.P12-Group10\lab01\1111\Lab01\obj\Debug\Lab01.Bai2.resources

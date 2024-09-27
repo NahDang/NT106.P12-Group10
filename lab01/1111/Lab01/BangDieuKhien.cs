@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace Lab01
 {
-    public partial class Form1 : Form
+    public partial class BangDieuKhien : Form
     {
-        public Form1()
+        public BangDieuKhien()
         {
             InitializeComponent();
         }
@@ -22,9 +22,15 @@ namespace Lab01
 
         }
 
-        private void button1_Click(object sender, EventArgs e)
+        private void buttonBai1_Click(object sender, EventArgs e)
         {
 
+        }
+
+        private void buttonBai2_Click(object sender, EventArgs e)
+        {
+            Bai2 b2 = new Bai2();
+            b2.Show();
         }
     }
 }
