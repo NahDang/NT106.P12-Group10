@@ -19,3 +19,14 @@ E:\GitHubAssignment\NT106.P12-Group10\lab01\1111\Lab01\bin\Debug\Lab01.exe.confi
 E:\GitHubAssignment\NT106.P12-Group10\lab01\1111\Lab01\bin\Debug\Lab01.exe
 E:\GitHubAssignment\NT106.P12-Group10\lab01\1111\Lab01\bin\Debug\Lab01.pdb
 E:\GitHubAssignment\NT106.P12-Group10\lab01\1111\Lab01\obj\Debug\Lab01.Bai2.resources
+D:\NT106-DoAn\NT106.P12-Group10\lab01\1111\Lab01\bin\Debug\Lab01.exe.config
+D:\NT106-DoAn\NT106.P12-Group10\lab01\1111\Lab01\bin\Debug\Lab01.exe
+D:\NT106-DoAn\NT106.P12-Group10\lab01\1111\Lab01\bin\Debug\Lab01.pdb
+D:\NT106-DoAn\NT106.P12-Group10\lab01\1111\Lab01\obj\Debug\Lab01.csproj.AssemblyReference.cache
+D:\NT106-DoAn\NT106.P12-Group10\lab01\1111\Lab01\obj\Debug\Lab01.Bai2.resources
+D:\NT106-DoAn\NT106.P12-Group10\lab01\1111\Lab01\obj\Debug\Lab01.BangDieuKhien.resources
+D:\NT106-DoAn\NT106.P12-Group10\lab01\1111\Lab01\obj\Debug\Lab01.Properties.Resources.resources
+D:\NT106-DoAn\NT106.P12-Group10\lab01\1111\Lab01\obj\Debug\Lab01.csproj.GenerateResource.cache
+D:\NT106-DoAn\NT106.P12-Group10\lab01\1111\Lab01\obj\Debug\Lab01.csproj.CoreCompileInputs.cache
+D:\NT106-DoAn\NT106.P12-Group10\lab01\1111\Lab01\obj\Debug\Lab01.exe
+D:\NT106-DoAn\NT106.P12-Group10\lab01\1111\Lab01\obj\Debug\Lab01.pdb
