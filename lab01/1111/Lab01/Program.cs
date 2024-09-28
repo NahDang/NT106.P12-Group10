@@ -16,7 +16,7 @@ namespace Lab01
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new BangDieuKhien());
+            Application.Run(new Form1());
         }
     }
 }
