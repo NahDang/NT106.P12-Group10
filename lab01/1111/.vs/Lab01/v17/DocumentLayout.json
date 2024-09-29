@@ -3,35 +3,55 @@
   "WorkspaceRootPath": "E:\\GitHubAssignment\\NT106.P12-Group10\\lab01\\1111\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{F08E4CA4-CDA0-46B2-8DE0-8ADBC90950A7}|Lab01\\Lab01.csproj|E:\\GitHubAssignment\\NT106.P12-Group10\\lab01\\1111\\lab01\\form3.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{F08E4CA4-CDA0-46B2-8DE0-8ADBC90950A7}|Lab01\\Lab01.csproj|solutionrelative:lab01\\form3.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{F08E4CA4-CDA0-46B2-8DE0-8ADBC90950A7}|Lab01\\Lab01.csproj|E:\\GitHubAssignment\\NT106.P12-Group10\\lab01\\1111\\lab01\\form2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F08E4CA4-CDA0-46B2-8DE0-8ADBC90950A7}|Lab01\\Lab01.csproj|solutionrelative:lab01\\form2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F08E4CA4-CDA0-46B2-8DE0-8ADBC90950A7}|Lab01\\Lab01.csproj|E:\\GitHubAssignment\\NT106.P12-Group10\\lab01\\1111\\lab01\\form4.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{F08E4CA4-CDA0-46B2-8DE0-8ADBC90950A7}|Lab01\\Lab01.csproj|solutionrelative:lab01\\form4.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{F08E4CA4-CDA0-46B2-8DE0-8ADBC90950A7}|Lab01\\Lab01.csproj|E:\\GitHubAssignment\\NT106.P12-Group10\\lab01\\1111\\lab01\\form6.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F08E4CA4-CDA0-46B2-8DE0-8ADBC90950A7}|Lab01\\Lab01.csproj|solutionrelative:lab01\\form6.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{F08E4CA4-CDA0-46B2-8DE0-8ADBC90950A7}|Lab01\\Lab01.csproj|E:\\GitHubAssignment\\NT106.P12-Group10\\lab01\\1111\\lab01\\form6.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{F08E4CA4-CDA0-46B2-8DE0-8ADBC90950A7}|Lab01\\Lab01.csproj|solutionrelative:lab01\\form6.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F08E4CA4-CDA0-46B2-8DE0-8ADBC90950A7}|Lab01\\Lab01.csproj|E:\\GitHubAssignment\\NT106.P12-Group10\\lab01\\1111\\lab01\\form5.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{F08E4CA4-CDA0-46B2-8DE0-8ADBC90950A7}|Lab01\\Lab01.csproj|solutionrelative:lab01\\form5.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{F08E4CA4-CDA0-46B2-8DE0-8ADBC90950A7}|Lab01\\Lab01.csproj|E:\\GitHubAssignment\\NT106.P12-Group10\\lab01\\1111\\lab01\\form6.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F08E4CA4-CDA0-46B2-8DE0-8ADBC90950A7}|Lab01\\Lab01.csproj|solutionrelative:lab01\\form6.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{F08E4CA4-CDA0-46B2-8DE0-8ADBC90950A7}|Lab01\\Lab01.csproj|E:\\GitHubAssignment\\NT106.P12-Group10\\lab01\\1111\\lab01\\form2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{F08E4CA4-CDA0-46B2-8DE0-8ADBC90950A7}|Lab01\\Lab01.csproj|solutionrelative:lab01\\form2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F08E4CA4-CDA0-46B2-8DE0-8ADBC90950A7}|Lab01\\Lab01.csproj|E:\\GitHubAssignment\\NT106.P12-Group10\\lab01\\1111\\lab01\\form2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F08E4CA4-CDA0-46B2-8DE0-8ADBC90950A7}|Lab01\\Lab01.csproj|solutionrelative:lab01\\form2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{F08E4CA4-CDA0-46B2-8DE0-8ADBC90950A7}|Lab01\\Lab01.csproj|E:\\GitHubAssignment\\NT106.P12-Group10\\lab01\\1111\\lab01\\form4.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F08E4CA4-CDA0-46B2-8DE0-8ADBC90950A7}|Lab01\\Lab01.csproj|solutionrelative:lab01\\form4.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F08E4CA4-CDA0-46B2-8DE0-8ADBC90950A7}|Lab01\\Lab01.csproj|E:\\GitHubAssignment\\NT106.P12-Group10\\lab01\\1111\\lab01\\form4.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{F08E4CA4-CDA0-46B2-8DE0-8ADBC90950A7}|Lab01\\Lab01.csproj|solutionrelative:lab01\\form4.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F08E4CA4-CDA0-46B2-8DE0-8ADBC90950A7}|Lab01\\Lab01.csproj|E:\\GitHubAssignment\\NT106.P12-Group10\\lab01\\1111\\lab01\\form3.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F08E4CA4-CDA0-46B2-8DE0-8ADBC90950A7}|Lab01\\Lab01.csproj|solutionrelative:lab01\\form3.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F08E4CA4-CDA0-46B2-8DE0-8ADBC90950A7}|Lab01\\Lab01.csproj|E:\\GitHubAssignment\\NT106.P12-Group10\\lab01\\1111\\lab01\\form5.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F08E4CA4-CDA0-46B2-8DE0-8ADBC90950A7}|Lab01\\Lab01.csproj|solutionrelative:lab01\\form5.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F08E4CA4-CDA0-46B2-8DE0-8ADBC90950A7}|Lab01\\Lab01.csproj|E:\\GitHubAssignment\\NT106.P12-Group10\\lab01\\1111\\lab01\\form5.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{F08E4CA4-CDA0-46B2-8DE0-8ADBC90950A7}|Lab01\\Lab01.csproj|solutionrelative:lab01\\form5.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F08E4CA4-CDA0-46B2-8DE0-8ADBC90950A7}|Lab01\\Lab01.csproj|e:\\githubassignment\\nt106.p12-group10\\lab01\\1111\\lab01\\form3.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{F08E4CA4-CDA0-46B2-8DE0-8ADBC90950A7}|Lab01\\Lab01.csproj|solutionrelative:lab01\\form3.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
       "AbsoluteMoniker": "D:0:0:{F08E4CA4-CDA0-46B2-8DE0-8ADBC90950A7}|Lab01\\Lab01.csproj|E:\\GitHubAssignment\\NT106.P12-Group10\\lab01\\1111\\lab01\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{F08E4CA4-CDA0-46B2-8DE0-8ADBC90950A7}|Lab01\\Lab01.csproj|solutionrelative:lab01\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F08E4CA4-CDA0-46B2-8DE0-8ADBC90950A7}|Lab01\\Lab01.csproj|e:\\githubassignment\\nt106.p12-group10\\lab01\\1111\\lab01\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{F08E4CA4-CDA0-46B2-8DE0-8ADBC90950A7}|Lab01\\Lab01.csproj|E:\\GitHubAssignment\\NT106.P12-Group10\\lab01\\1111\\lab01\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{F08E4CA4-CDA0-46B2-8DE0-8ADBC90950A7}|Lab01\\Lab01.csproj|solutionrelative:lab01\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
@@ -39,28 +59,8 @@
       "RelativeMoniker": "D:0:0:{F08E4CA4-CDA0-46B2-8DE0-8ADBC90950A7}|Lab01\\Lab01.csproj|solutionrelative:lab01\\form5.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F08E4CA4-CDA0-46B2-8DE0-8ADBC90950A7}|Lab01\\Lab01.csproj|E:\\GitHubAssignment\\NT106.P12-Group10\\lab01\\1111\\lab01\\form3.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F08E4CA4-CDA0-46B2-8DE0-8ADBC90950A7}|Lab01\\Lab01.csproj|solutionrelative:lab01\\form3.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F08E4CA4-CDA0-46B2-8DE0-8ADBC90950A7}|Lab01\\Lab01.csproj|E:\\GitHubAssignment\\NT106.P12-Group10\\lab01\\1111\\lab01\\form6.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F08E4CA4-CDA0-46B2-8DE0-8ADBC90950A7}|Lab01\\Lab01.csproj|solutionrelative:lab01\\form6.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F08E4CA4-CDA0-46B2-8DE0-8ADBC90950A7}|Lab01\\Lab01.csproj|E:\\GitHubAssignment\\NT106.P12-Group10\\lab01\\1111\\lab01\\form6.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F08E4CA4-CDA0-46B2-8DE0-8ADBC90950A7}|Lab01\\Lab01.csproj|solutionrelative:lab01\\form6.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F08E4CA4-CDA0-46B2-8DE0-8ADBC90950A7}|Lab01\\Lab01.csproj|E:\\GitHubAssignment\\NT106.P12-Group10\\lab01\\1111\\lab01\\form5.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F08E4CA4-CDA0-46B2-8DE0-8ADBC90950A7}|Lab01\\Lab01.csproj|solutionrelative:lab01\\form5.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{F08E4CA4-CDA0-46B2-8DE0-8ADBC90950A7}|Lab01\\Lab01.csproj|E:\\GitHubAssignment\\NT106.P12-Group10\\lab01\\1111\\lab01\\form3.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{F08E4CA4-CDA0-46B2-8DE0-8ADBC90950A7}|Lab01\\Lab01.csproj|solutionrelative:lab01\\form3.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F08E4CA4-CDA0-46B2-8DE0-8ADBC90950A7}|Lab01\\Lab01.csproj|E:\\GitHubAssignment\\NT106.P12-Group10\\lab01\\1111\\lab01\\form4.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F08E4CA4-CDA0-46B2-8DE0-8ADBC90950A7}|Lab01\\Lab01.csproj|solutionrelative:lab01\\form4.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{F08E4CA4-CDA0-46B2-8DE0-8ADBC90950A7}|Lab01\\Lab01.csproj|E:\\GitHubAssignment\\NT106.P12-Group10\\lab01\\1111\\lab01\\form4.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -86,7 +86,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 9,
           "Children": [
             {
               "$type": "Bookmark",
@@ -94,39 +94,29 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Form4.cs [Design]",
-              "DocumentMoniker": "E:\\GitHubAssignment\\NT106.P12-Group10\\lab01\\1111\\Lab01\\Form4.cs",
-              "RelativeDocumentMoniker": "Lab01\\Form4.cs",
-              "ToolTip": "E:\\GitHubAssignment\\NT106.P12-Group10\\lab01\\1111\\Lab01\\Form4.cs [Design]",
-              "RelativeToolTip": "Lab01\\Form4.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-29T06:59:26.989Z",
-              "EditorCaption": " [Design]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Form3.cs [Design]",
+              "DocumentIndex": 7,
+              "Title": "Form3.cs",
               "DocumentMoniker": "E:\\GitHubAssignment\\NT106.P12-Group10\\lab01\\1111\\Lab01\\Form3.cs",
               "RelativeDocumentMoniker": "Lab01\\Form3.cs",
-              "ToolTip": "E:\\GitHubAssignment\\NT106.P12-Group10\\lab01\\1111\\Lab01\\Form3.cs [Design]",
-              "RelativeToolTip": "Lab01\\Form3.cs [Design]",
+              "ToolTip": "E:\\GitHubAssignment\\NT106.P12-Group10\\lab01\\1111\\Lab01\\Form3.cs",
+              "RelativeToolTip": "Lab01\\Form3.cs",
+              "ViewState": "AgIAACgAAAAAAAAAAAAkwCsAAABDAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-09-29T06:59:27.209Z",
-              "EditorCaption": " [Design]"
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Form6.cs [Design]",
-              "DocumentMoniker": "E:\\GitHubAssignment\\NT106.P12-Group10\\lab01\\1111\\Lab01\\Form6.cs",
-              "RelativeDocumentMoniker": "Lab01\\Form6.cs",
-              "ToolTip": "E:\\GitHubAssignment\\NT106.P12-Group10\\lab01\\1111\\Lab01\\Form6.cs [Design]",
-              "RelativeToolTip": "Lab01\\Form6.cs [Design]",
+              "DocumentIndex": 5,
+              "Title": "Form4.cs",
+              "DocumentMoniker": "E:\\GitHubAssignment\\NT106.P12-Group10\\lab01\\1111\\Lab01\\Form4.cs",
+              "RelativeDocumentMoniker": "Lab01\\Form4.cs",
+              "ToolTip": "E:\\GitHubAssignment\\NT106.P12-Group10\\lab01\\1111\\Lab01\\Form4.cs",
+              "RelativeToolTip": "Lab01\\Form4.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAbAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-29T06:59:26.977Z",
-              "EditorCaption": " [Design]"
+              "WhenOpened": "2024-09-29T06:59:27.209Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -142,12 +132,12 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "Form1.cs [Design]",
-              "DocumentMoniker": "E:\\GitHubAssignment\\NT106.P12-Group10\\lab01\\1111\\Lab01\\Form1.cs",
-              "RelativeDocumentMoniker": "Lab01\\Form1.cs",
-              "ToolTip": "E:\\GitHubAssignment\\NT106.P12-Group10\\lab01\\1111\\Lab01\\Form1.cs [Design]",
-              "RelativeToolTip": "Lab01\\Form1.cs [Design]",
+              "DocumentIndex": 9,
+              "Title": "Form5.cs [Design]",
+              "DocumentMoniker": "E:\\GitHubAssignment\\NT106.P12-Group10\\lab01\\1111\\Lab01\\Form5.cs",
+              "RelativeDocumentMoniker": "Lab01\\Form5.cs",
+              "ToolTip": "E:\\GitHubAssignment\\NT106.P12-Group10\\lab01\\1111\\Lab01\\Form5.cs [Design]",
+              "RelativeToolTip": "Lab01\\Form5.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-09-29T06:59:26.989Z",
               "EditorCaption": " [Design]"
@@ -155,6 +145,70 @@
             {
               "$type": "Document",
               "DocumentIndex": 8,
+              "Title": "Form5.cs",
+              "DocumentMoniker": "E:\\GitHubAssignment\\NT106.P12-Group10\\lab01\\1111\\Lab01\\Form5.cs",
+              "RelativeDocumentMoniker": "Lab01\\Form5.cs",
+              "ToolTip": "E:\\GitHubAssignment\\NT106.P12-Group10\\lab01\\1111\\Lab01\\Form5.cs",
+              "RelativeToolTip": "Lab01\\Form5.cs",
+              "ViewState": "AgIAAEYAAAAAAAAAAAAkwFwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-29T06:59:26.977Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Form6.cs",
+              "DocumentMoniker": "E:\\GitHubAssignment\\NT106.P12-Group10\\lab01\\1111\\Lab01\\Form6.cs",
+              "RelativeDocumentMoniker": "Lab01\\Form6.cs",
+              "ToolTip": "E:\\GitHubAssignment\\NT106.P12-Group10\\lab01\\1111\\Lab01\\Form6.cs",
+              "RelativeToolTip": "Lab01\\Form6.cs",
+              "ViewState": "AgIAAD8AAAAAAAAAAAAWwFIAAAAiAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-29T06:59:26.957Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Form6.cs [Design]",
+              "DocumentMoniker": "E:\\GitHubAssignment\\NT106.P12-Group10\\lab01\\1111\\Lab01\\Form6.cs",
+              "RelativeDocumentMoniker": "Lab01\\Form6.cs",
+              "ToolTip": "E:\\GitHubAssignment\\NT106.P12-Group10\\lab01\\1111\\Lab01\\Form6.cs [Design]",
+              "RelativeToolTip": "Lab01\\Form6.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-29T06:59:26.977Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Form6.Designer.cs",
+              "DocumentMoniker": "E:\\GitHubAssignment\\NT106.P12-Group10\\lab01\\1111\\Lab01\\Form6.Designer.cs",
+              "RelativeDocumentMoniker": "Lab01\\Form6.Designer.cs",
+              "ToolTip": "E:\\GitHubAssignment\\NT106.P12-Group10\\lab01\\1111\\Lab01\\Form6.Designer.cs",
+              "RelativeToolTip": "Lab01\\Form6.Designer.cs",
+              "ViewState": "AgIAABYAAAAAAAAAAAAAABYAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-29T06:59:26.977Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Form2.cs",
+              "DocumentMoniker": "E:\\GitHubAssignment\\NT106.P12-Group10\\lab01\\1111\\Lab01\\Form2.cs",
+              "RelativeDocumentMoniker": "Lab01\\Form2.cs",
+              "ToolTip": "E:\\GitHubAssignment\\NT106.P12-Group10\\lab01\\1111\\Lab01\\Form2.cs",
+              "RelativeToolTip": "Lab01\\Form2.cs",
+              "ViewState": "AgIAAF0AAAAAAAAAAAAuwK8AAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-29T06:59:27.209Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
               "Title": "Form5.Designer.cs",
               "DocumentMoniker": "E:\\GitHubAssignment\\NT106.P12-Group10\\lab01\\1111\\Lab01\\Form5.Designer.cs",
               "RelativeDocumentMoniker": "Lab01\\Form5.Designer.cs",
@@ -167,58 +221,42 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "Form3.cs",
-              "DocumentMoniker": "E:\\GitHubAssignment\\NT106.P12-Group10\\lab01\\1111\\Lab01\\Form3.cs",
-              "RelativeDocumentMoniker": "Lab01\\Form3.cs",
-              "ToolTip": "E:\\GitHubAssignment\\NT106.P12-Group10\\lab01\\1111\\Lab01\\Form3.cs",
-              "RelativeToolTip": "Lab01\\Form3.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAADcAAAAgAAAAAAAAAA==",
+              "DocumentIndex": 11,
+              "Title": "Form1.cs [Design]",
+              "DocumentMoniker": "E:\\GitHubAssignment\\NT106.P12-Group10\\lab01\\1111\\Lab01\\Form1.cs",
+              "RelativeDocumentMoniker": "Lab01\\Form1.cs",
+              "ToolTip": "E:\\GitHubAssignment\\NT106.P12-Group10\\lab01\\1111\\Lab01\\Form1.cs [Design]",
+              "RelativeToolTip": "Lab01\\Form1.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-29T06:59:27.209Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-09-29T06:59:26.989Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "Form5.cs",
-              "DocumentMoniker": "E:\\GitHubAssignment\\NT106.P12-Group10\\lab01\\1111\\Lab01\\Form5.cs",
-              "RelativeDocumentMoniker": "Lab01\\Form5.cs",
-              "ToolTip": "E:\\GitHubAssignment\\NT106.P12-Group10\\lab01\\1111\\Lab01\\Form5.cs",
-              "RelativeToolTip": "Lab01\\Form5.cs",
-              "ViewState": "AgIAAD0AAAAAAAAAAAAWwFAAAAANAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-29T06:59:26.977Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "Form2.cs",
-              "DocumentMoniker": "E:\\GitHubAssignment\\NT106.P12-Group10\\lab01\\1111\\Lab01\\Form2.cs",
-              "RelativeDocumentMoniker": "Lab01\\Form2.cs",
-              "ToolTip": "E:\\GitHubAssignment\\NT106.P12-Group10\\lab01\\1111\\Lab01\\Form2.cs",
-              "RelativeToolTip": "Lab01\\Form2.cs",
-              "ViewState": "AgIAAKMAAAAAAAAAAAAmwLMAAAAZAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-29T06:59:27.209Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "Form5.cs [Design]",
-              "DocumentMoniker": "E:\\GitHubAssignment\\NT106.P12-Group10\\lab01\\1111\\Lab01\\Form5.cs",
-              "RelativeDocumentMoniker": "Lab01\\Form5.cs",
-              "ToolTip": "E:\\GitHubAssignment\\NT106.P12-Group10\\lab01\\1111\\Lab01\\Form5.cs [Design]",
-              "RelativeToolTip": "Lab01\\Form5.cs [Design]",
+              "DocumentIndex": 6,
+              "Title": "Form4.cs [Design]",
+              "DocumentMoniker": "E:\\GitHubAssignment\\NT106.P12-Group10\\lab01\\1111\\Lab01\\Form4.cs",
+              "RelativeDocumentMoniker": "Lab01\\Form4.cs",
+              "ToolTip": "E:\\GitHubAssignment\\NT106.P12-Group10\\lab01\\1111\\Lab01\\Form4.cs [Design]",
+              "RelativeToolTip": "Lab01\\Form4.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-09-29T06:59:26.989Z",
               "EditorCaption": " [Design]"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 10,
+              "Title": "Form3.cs [Design]",
+              "DocumentMoniker": "E:\\GitHubAssignment\\NT106.P12-Group10\\lab01\\1111\\Lab01\\Form3.cs",
+              "RelativeDocumentMoniker": "Lab01\\Form3.cs",
+              "ToolTip": "E:\\GitHubAssignment\\NT106.P12-Group10\\lab01\\1111\\Lab01\\Form3.cs [Design]",
+              "RelativeToolTip": "Lab01\\Form3.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-29T06:59:27.209Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
               "Title": "Form1.cs",
               "DocumentMoniker": "E:\\GitHubAssignment\\NT106.P12-Group10\\lab01\\1111\\Lab01\\Form1.cs",
               "RelativeDocumentMoniker": "Lab01\\Form1.cs",
@@ -226,47 +264,7 @@
               "RelativeToolTip": "Lab01\\Form1.cs",
               "ViewState": "AgIAABUAAAAAAAAAAAAhwCAAAAAMAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-29T06:59:27.171Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "Form6.Designer.cs",
-              "DocumentMoniker": "E:\\GitHubAssignment\\NT106.P12-Group10\\lab01\\1111\\Lab01\\Form6.Designer.cs",
-              "RelativeDocumentMoniker": "Lab01\\Form6.Designer.cs",
-              "ToolTip": "E:\\GitHubAssignment\\NT106.P12-Group10\\lab01\\1111\\Lab01\\Form6.Designer.cs",
-              "RelativeToolTip": "Lab01\\Form6.Designer.cs",
-              "ViewState": "AgIAAIgAAAAAAAAAAAAewHMAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-29T06:59:26.977Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "Form6.cs",
-              "DocumentMoniker": "E:\\GitHubAssignment\\NT106.P12-Group10\\lab01\\1111\\Lab01\\Form6.cs",
-              "RelativeDocumentMoniker": "Lab01\\Form6.cs",
-              "ToolTip": "E:\\GitHubAssignment\\NT106.P12-Group10\\lab01\\1111\\Lab01\\Form6.cs",
-              "RelativeToolTip": "Lab01\\Form6.cs",
-              "ViewState": "AgIAAHoAAAAAAAAAAAAewIUAAAAZAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-29T06:59:26.957Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 14,
-              "Title": "Form4.cs",
-              "DocumentMoniker": "E:\\GitHubAssignment\\NT106.P12-Group10\\lab01\\1111\\Lab01\\Form4.cs",
-              "RelativeDocumentMoniker": "Lab01\\Form4.cs",
-              "ToolTip": "E:\\GitHubAssignment\\NT106.P12-Group10\\lab01\\1111\\Lab01\\Form4.cs",
-              "RelativeToolTip": "Lab01\\Form4.cs",
-              "ViewState": "AgIAAAkAAAAAAAAAAAAAAIAAAAAJAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-29T06:59:27.209Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-09-29T06:59:27.171Z"
             },
             {
               "$type": "Document",
@@ -283,7 +281,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 14,
               "Title": "Form3.Designer.cs",
               "DocumentMoniker": "E:\\GitHubAssignment\\NT106.P12-Group10\\lab01\\1111\\Lab01\\Form3.Designer.cs",
               "RelativeDocumentMoniker": "Lab01\\Form3.Designer.cs",
@@ -291,8 +289,7 @@
               "RelativeToolTip": "Lab01\\Form3.Designer.cs",
               "ViewState": "AgIAAMQAAAAAAAAAAAAewOQAAAArAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-29T06:59:27.209Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-09-29T06:59:27.209Z"
             },
             {
               "$type": "Document",
@@ -317,8 +314,7 @@
               "RelativeToolTip": "Lab01\\Form1.Designer.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAuwBYAAAAIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-29T06:59:27.209Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-09-29T06:59:27.209Z"
             },
             {
               "$type": "Document",
@@ -330,8 +326,7 @@
               "RelativeToolTip": "Lab01\\Program.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAApAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-29T06:59:27.209Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-09-29T06:59:27.209Z"
             }
           ]
         }

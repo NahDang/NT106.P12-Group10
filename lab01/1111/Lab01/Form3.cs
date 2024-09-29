@@ -53,7 +53,9 @@ namespace Lab01
         private void btFind_Click(object sender, EventArgs e)
         {
             float n1, n2, n3;
-            if (!float.TryParse(txtNo1.Text, NumberStyles.Any, CultureInfo.InvariantCulture, out n1) || !float.TryParse(txtNo2.Text, NumberStyles.Any, CultureInfo.InvariantCulture, out n2) || !float.TryParse(txtNo3.Text, NumberStyles.Any, CultureInfo.InvariantCulture, out n3))
+            if (!float.TryParse(txtNo1.Text, NumberStyles.Any, CultureInfo.InvariantCulture, out n1) 
+                || !float.TryParse(txtNo2.Text, NumberStyles.Any, CultureInfo.InvariantCulture, out n2) 
+                || !float.TryParse(txtNo3.Text, NumberStyles.Any, CultureInfo.InvariantCulture, out n3))
             {
                 MessageBox.Show("Vui lòng nhập số hợp lệ!");
             }

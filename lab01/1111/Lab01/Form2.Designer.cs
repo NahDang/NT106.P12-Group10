@@ -49,7 +49,6 @@ namespace Lab01
             this.dataGridView1 = new System.Windows.Forms.DataGridView();
             this.label7 = new System.Windows.Forms.Label();
             this.buttonThongKe = new System.Windows.Forms.Button();
-            this.button1 = new System.Windows.Forms.Button();
             this.buttonThoat = new System.Windows.Forms.Button();
             this.groupBox1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
@@ -101,6 +100,7 @@ namespace Lab01
             // 
             this.buttonXoa.BackColor = System.Drawing.Color.Transparent;
             this.buttonXoa.Font = new System.Drawing.Font("Times New Roman", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.buttonXoa.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.buttonXoa.Location = new System.Drawing.Point(130, 231);
             this.buttonXoa.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.buttonXoa.Name = "buttonXoa";
@@ -114,6 +114,7 @@ namespace Lab01
             // 
             this.buttonSave.BackColor = System.Drawing.SystemColors.ButtonHighlight;
             this.buttonSave.Font = new System.Drawing.Font("Times New Roman", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.buttonSave.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.buttonSave.Location = new System.Drawing.Point(9, 231);
             this.buttonSave.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.buttonSave.Name = "buttonSave";
@@ -254,15 +255,6 @@ namespace Lab01
             this.buttonThongKe.UseVisualStyleBackColor = false;
             this.buttonThongKe.Click += new System.EventHandler(this.buttonThongKe_Click_1);
             // 
-            // button1
-            // 
-            this.button1.Location = new System.Drawing.Point(0, 0);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(75, 23);
-            this.button1.TabIndex = 5;
-            this.button1.Text = "button1";
-            this.button1.UseVisualStyleBackColor = true;
-            // 
             // buttonThoat
             // 
             this.buttonThoat.BackColor = System.Drawing.Color.MediumVioletRed;
@@ -284,7 +276,6 @@ namespace Lab01
             this.BackgroundImage = global::Lab01.Properties.Resources.pink_pastel_background_fubdyima1gpioo62;
             this.ClientSize = new System.Drawing.Size(1906, 982);
             this.Controls.Add(this.buttonThoat);
-            this.Controls.Add(this.button1);
             this.Controls.Add(this.buttonThongKe);
             this.Controls.Add(this.label7);
             this.Controls.Add(this.dataGridView1);
@@ -319,7 +310,6 @@ namespace Lab01
         private System.Windows.Forms.TextBox textBoxMon3;
         private System.Windows.Forms.TextBox textBoxMon2;
         private System.Windows.Forms.TextBox textBoxMon1;
-        private Button button1;
         private Button buttonThoat;
     }
 }

@@ -80,8 +80,9 @@
             this.txtOut.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txtOut.Location = new System.Drawing.Point(158, 491);
             this.txtOut.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.txtOut.Multiline = true;
             this.txtOut.Name = "txtOut";
-            this.txtOut.Size = new System.Drawing.Size(956, 44);
+            this.txtOut.Size = new System.Drawing.Size(956, 124);
             this.txtOut.TabIndex = 3;
             // 
             // btnDelete

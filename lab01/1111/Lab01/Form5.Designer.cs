@@ -104,7 +104,7 @@
             this.KetQua.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
             this.KetQua.Location = new System.Drawing.Point(24, 390);
             this.KetQua.Name = "KetQua";
-            this.KetQua.Size = new System.Drawing.Size(1164, 301);
+            this.KetQua.Size = new System.Drawing.Size(1164, 434);
             this.KetQua.TabIndex = 8;
             this.KetQua.TabStop = false;
             this.KetQua.Text = "KẾT QUẢ";
@@ -115,7 +115,7 @@
             this.txtKetQua.Location = new System.Drawing.Point(17, 56);
             this.txtKetQua.Multiline = true;
             this.txtKetQua.Name = "txtKetQua";
-            this.txtKetQua.Size = new System.Drawing.Size(1129, 239);
+            this.txtKetQua.Size = new System.Drawing.Size(1129, 378);
             this.txtKetQua.TabIndex = 0;
             // 
             // btTinhCacGiaTri
@@ -159,7 +159,7 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(26F, 49F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackgroundImage = global::Lab01.Properties.Resources.pink_pastel_background_fubdyima1gpioo62;
-            this.ClientSize = new System.Drawing.Size(1200, 703);
+            this.ClientSize = new System.Drawing.Size(1200, 836);
             this.Controls.Add(this.btThoat);
             this.Controls.Add(this.btXoa);
             this.Controls.Add(this.btTinhCacGiaTri);
