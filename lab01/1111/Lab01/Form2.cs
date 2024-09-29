@@ -174,6 +174,11 @@ namespace Lab01
             danhsachthisinh.Add(ts);
             UpdateDataGridView();
         }
+
+        private void buttonThoat_Click(object sender, EventArgs e)
+        {
+            this.Close();
+        }
     }
 
 }

@@ -49,12 +49,15 @@ namespace Lab01
             this.dataGridView1 = new System.Windows.Forms.DataGridView();
             this.label7 = new System.Windows.Forms.Label();
             this.buttonThongKe = new System.Windows.Forms.Button();
+            this.button1 = new System.Windows.Forms.Button();
+            this.buttonThoat = new System.Windows.Forms.Button();
             this.groupBox1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
             this.SuspendLayout();
             // 
             // groupBox1
             // 
+            this.groupBox1.BackColor = System.Drawing.Color.MediumVioletRed;
             this.groupBox1.Controls.Add(this.textBoxMon3);
             this.groupBox1.Controls.Add(this.textBoxMon2);
             this.groupBox1.Controls.Add(this.buttonXoa);
@@ -68,34 +71,40 @@ namespace Lab01
             this.groupBox1.Controls.Add(this.label1);
             this.groupBox1.Controls.Add(this.label3);
             this.groupBox1.Font = new System.Drawing.Font("Times New Roman", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.groupBox1.Location = new System.Drawing.Point(22, 30);
+            this.groupBox1.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.groupBox1.Location = new System.Drawing.Point(33, 47);
+            this.groupBox1.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.groupBox1.Name = "groupBox1";
-            this.groupBox1.Size = new System.Drawing.Size(553, 182);
+            this.groupBox1.Padding = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.groupBox1.Size = new System.Drawing.Size(830, 284);
             this.groupBox1.TabIndex = 0;
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "Nhập Thí Sinh";
             // 
             // textBoxMon3
             // 
-            this.textBoxMon3.Location = new System.Drawing.Point(429, 112);
+            this.textBoxMon3.Location = new System.Drawing.Point(644, 175);
+            this.textBoxMon3.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.textBoxMon3.Name = "textBoxMon3";
-            this.textBoxMon3.Size = new System.Drawing.Size(118, 25);
+            this.textBoxMon3.Size = new System.Drawing.Size(175, 35);
             this.textBoxMon3.TabIndex = 6;
             // 
             // textBoxMon2
             // 
-            this.textBoxMon2.Location = new System.Drawing.Point(429, 79);
+            this.textBoxMon2.Location = new System.Drawing.Point(644, 123);
+            this.textBoxMon2.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.textBoxMon2.Name = "textBoxMon2";
-            this.textBoxMon2.Size = new System.Drawing.Size(118, 25);
+            this.textBoxMon2.Size = new System.Drawing.Size(175, 35);
             this.textBoxMon2.TabIndex = 7;
             // 
             // buttonXoa
             // 
             this.buttonXoa.BackColor = System.Drawing.Color.Transparent;
             this.buttonXoa.Font = new System.Drawing.Font("Times New Roman", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.buttonXoa.Location = new System.Drawing.Point(87, 148);
+            this.buttonXoa.Location = new System.Drawing.Point(130, 231);
+            this.buttonXoa.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.buttonXoa.Name = "buttonXoa";
-            this.buttonXoa.Size = new System.Drawing.Size(75, 26);
+            this.buttonXoa.Size = new System.Drawing.Size(112, 41);
             this.buttonXoa.TabIndex = 3;
             this.buttonXoa.Text = "Xóa";
             this.buttonXoa.UseVisualStyleBackColor = false;
@@ -105,9 +114,10 @@ namespace Lab01
             // 
             this.buttonSave.BackColor = System.Drawing.SystemColors.ButtonHighlight;
             this.buttonSave.Font = new System.Drawing.Font("Times New Roman", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.buttonSave.Location = new System.Drawing.Point(6, 148);
+            this.buttonSave.Location = new System.Drawing.Point(9, 231);
+            this.buttonSave.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.buttonSave.Name = "buttonSave";
-            this.buttonSave.Size = new System.Drawing.Size(75, 28);
+            this.buttonSave.Size = new System.Drawing.Size(112, 44);
             this.buttonSave.TabIndex = 2;
             this.buttonSave.Text = "Lưu";
             this.buttonSave.UseVisualStyleBackColor = false;
@@ -115,9 +125,10 @@ namespace Lab01
             // 
             // textBoxMon1
             // 
-            this.textBoxMon1.Location = new System.Drawing.Point(429, 46);
+            this.textBoxMon1.Location = new System.Drawing.Point(644, 72);
+            this.textBoxMon1.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.textBoxMon1.Name = "textBoxMon1";
-            this.textBoxMon1.Size = new System.Drawing.Size(118, 25);
+            this.textBoxMon1.Size = new System.Drawing.Size(175, 35);
             this.textBoxMon1.TabIndex = 5;
             // 
             // comboBoxPhai
@@ -129,26 +140,29 @@ namespace Lab01
             "Nam",
             "Nữ",
             "Khác"});
-            this.comboBoxPhai.Location = new System.Drawing.Point(98, 90);
+            this.comboBoxPhai.Location = new System.Drawing.Point(147, 141);
+            this.comboBoxPhai.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.comboBoxPhai.Name = "comboBoxPhai";
-            this.comboBoxPhai.Size = new System.Drawing.Size(185, 25);
+            this.comboBoxPhai.Size = new System.Drawing.Size(276, 35);
             this.comboBoxPhai.TabIndex = 1;
             // 
             // textBoxName
             // 
-            this.textBoxName.Location = new System.Drawing.Point(98, 45);
+            this.textBoxName.Location = new System.Drawing.Point(147, 70);
+            this.textBoxName.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.textBoxName.Name = "textBoxName";
-            this.textBoxName.Size = new System.Drawing.Size(185, 25);
+            this.textBoxName.Size = new System.Drawing.Size(276, 35);
             this.textBoxName.TabIndex = 2;
             // 
             // label5
             // 
             this.label5.AutoSize = true;
             this.label5.Font = new System.Drawing.Font("Times New Roman", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label5.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.label5.Location = new System.Drawing.Point(329, 115);
+            this.label5.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.label5.Location = new System.Drawing.Point(494, 180);
+            this.label5.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(94, 19);
+            this.label5.Size = new System.Drawing.Size(151, 33);
             this.label5.TabIndex = 4;
             this.label5.Text = "Điểm môn 3";
             // 
@@ -156,10 +170,11 @@ namespace Lab01
             // 
             this.label2.AutoSize = true;
             this.label2.Font = new System.Drawing.Font("Times New Roman", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label2.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.label2.Location = new System.Drawing.Point(53, 95);
+            this.label2.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.label2.Location = new System.Drawing.Point(80, 148);
+            this.label2.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(39, 19);
+            this.label2.Size = new System.Drawing.Size(65, 33);
             this.label2.TabIndex = 2;
             this.label2.Text = "Phái";
             // 
@@ -167,10 +182,11 @@ namespace Lab01
             // 
             this.label4.AutoSize = true;
             this.label4.Font = new System.Drawing.Font("Times New Roman", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label4.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.label4.Location = new System.Drawing.Point(329, 79);
+            this.label4.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.label4.Location = new System.Drawing.Point(494, 123);
+            this.label4.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(94, 19);
+            this.label4.Size = new System.Drawing.Size(151, 33);
             this.label4.TabIndex = 3;
             this.label4.Text = "Điểm môn 2";
             // 
@@ -178,10 +194,11 @@ namespace Lab01
             // 
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Times New Roman", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.label1.Location = new System.Drawing.Point(15, 48);
+            this.label1.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.label1.Location = new System.Drawing.Point(22, 75);
+            this.label1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(77, 19);
+            this.label1.Size = new System.Drawing.Size(127, 33);
             this.label1.TabIndex = 1;
             this.label1.Text = "Họ và Tên";
             // 
@@ -189,56 +206,90 @@ namespace Lab01
             // 
             this.label3.AutoSize = true;
             this.label3.Font = new System.Drawing.Font("Times New Roman", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label3.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.label3.Location = new System.Drawing.Point(329, 46);
+            this.label3.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.label3.Location = new System.Drawing.Point(494, 72);
+            this.label3.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(94, 19);
+            this.label3.Size = new System.Drawing.Size(151, 33);
             this.label3.TabIndex = 2;
             this.label3.Text = "Điểm môn 1";
             // 
             // dataGridView1
             // 
+            this.dataGridView1.BackgroundColor = System.Drawing.Color.HotPink;
             this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dataGridView1.Location = new System.Drawing.Point(12, 281);
+            this.dataGridView1.Location = new System.Drawing.Point(18, 439);
+            this.dataGridView1.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.dataGridView1.Name = "dataGridView1";
             this.dataGridView1.RowHeadersWidth = 51;
             this.dataGridView1.RowTemplate.Height = 24;
-            this.dataGridView1.Size = new System.Drawing.Size(1237, 319);
+            this.dataGridView1.Size = new System.Drawing.Size(1856, 498);
             this.dataGridView1.TabIndex = 1;
             this.dataGridView1.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dataGridView1_CellContentClick);
             // 
             // label7
             // 
             this.label7.AutoSize = true;
+            this.label7.BackColor = System.Drawing.Color.MediumVioletRed;
             this.label7.Font = new System.Drawing.Font("Times New Roman", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label7.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.label7.Location = new System.Drawing.Point(12, 259);
+            this.label7.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.label7.Location = new System.Drawing.Point(18, 405);
+            this.label7.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(140, 19);
+            this.label7.Size = new System.Drawing.Size(239, 33);
             this.label7.TabIndex = 3;
             this.label7.Text = "Danh Sách Thí Sinh";
             // 
             // buttonThongKe
             // 
-            this.buttonThongKe.BackColor = System.Drawing.Color.Transparent;
+            this.buttonThongKe.BackColor = System.Drawing.Color.MediumVioletRed;
             this.buttonThongKe.Font = new System.Drawing.Font("Times New Roman", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.buttonThongKe.Location = new System.Drawing.Point(596, 44);
+            this.buttonThongKe.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.buttonThongKe.Location = new System.Drawing.Point(894, 69);
+            this.buttonThongKe.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.buttonThongKe.Name = "buttonThongKe";
-            this.buttonThongKe.Size = new System.Drawing.Size(118, 56);
+            this.buttonThongKe.Size = new System.Drawing.Size(177, 88);
             this.buttonThongKe.TabIndex = 4;
             this.buttonThongKe.Text = "Thống Kê";
             this.buttonThongKe.UseVisualStyleBackColor = false;
             this.buttonThongKe.Click += new System.EventHandler(this.buttonThongKe_Click_1);
             // 
+            // button1
+            // 
+            this.button1.Location = new System.Drawing.Point(0, 0);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(75, 23);
+            this.button1.TabIndex = 5;
+            this.button1.Text = "button1";
+            this.button1.UseVisualStyleBackColor = true;
+            // 
+            // buttonThoat
+            // 
+            this.buttonThoat.BackColor = System.Drawing.Color.MediumVioletRed;
+            this.buttonThoat.Font = new System.Drawing.Font("Times New Roman", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.buttonThoat.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.buttonThoat.Location = new System.Drawing.Point(894, 222);
+            this.buttonThoat.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.buttonThoat.Name = "buttonThoat";
+            this.buttonThoat.Size = new System.Drawing.Size(177, 88);
+            this.buttonThoat.TabIndex = 6;
+            this.buttonThoat.Text = "Thoat";
+            this.buttonThoat.UseVisualStyleBackColor = false;
+            this.buttonThoat.Click += new System.EventHandler(this.buttonThoat_Click);
+            // 
             // Form2Bai05
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(12F, 25F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1281, 575);
+            this.BackgroundImage = global::Lab01.Properties.Resources.pink_pastel_background_fubdyima1gpioo62;
+            this.ClientSize = new System.Drawing.Size(1906, 982);
+            this.Controls.Add(this.buttonThoat);
+            this.Controls.Add(this.button1);
             this.Controls.Add(this.buttonThongKe);
             this.Controls.Add(this.label7);
             this.Controls.Add(this.dataGridView1);
             this.Controls.Add(this.groupBox1);
+            this.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.Name = "Form2Bai05";
             this.Text = "Bai05-QuanLiThiSinhDuThi";
             this.Load += new System.EventHandler(this.Form2Bai05_Load);
@@ -268,5 +319,7 @@ namespace Lab01
         private System.Windows.Forms.TextBox textBoxMon3;
         private System.Windows.Forms.TextBox textBoxMon2;
         private System.Windows.Forms.TextBox textBoxMon1;
+        private Button button1;
+        private Button buttonThoat;
     }
 }
