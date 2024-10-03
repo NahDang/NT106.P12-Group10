@@ -8,3 +8,13 @@ D:\NT106-DoAn\NT106.P12-Group10\Week 4\TCPChat\ServerChat\obj\Debug\ServerChat.c
 D:\NT106-DoAn\NT106.P12-Group10\Week 4\TCPChat\ServerChat\obj\Debug\ServerChat.csproj.CoreCompileInputs.cache
 D:\NT106-DoAn\NT106.P12-Group10\Week 4\TCPChat\ServerChat\obj\Debug\ServerChat.exe
 D:\NT106-DoAn\NT106.P12-Group10\Week 4\TCPChat\ServerChat\obj\Debug\ServerChat.pdb
+E:\GitHubAssignment\NT106.P12-Group10\Week 4\TCPChat\ServerChat\bin\Debug\ServerChat.exe.config
+E:\GitHubAssignment\NT106.P12-Group10\Week 4\TCPChat\ServerChat\bin\Debug\ServerChat.exe
+E:\GitHubAssignment\NT106.P12-Group10\Week 4\TCPChat\ServerChat\bin\Debug\ServerChat.pdb
+E:\GitHubAssignment\NT106.P12-Group10\Week 4\TCPChat\ServerChat\obj\Debug\ServerChat.csproj.AssemblyReference.cache
+E:\GitHubAssignment\NT106.P12-Group10\Week 4\TCPChat\ServerChat\obj\Debug\ServerChat.Form1.resources
+E:\GitHubAssignment\NT106.P12-Group10\Week 4\TCPChat\ServerChat\obj\Debug\ServerChat.Properties.Resources.resources
+E:\GitHubAssignment\NT106.P12-Group10\Week 4\TCPChat\ServerChat\obj\Debug\ServerChat.csproj.GenerateResource.cache
+E:\GitHubAssignment\NT106.P12-Group10\Week 4\TCPChat\ServerChat\obj\Debug\ServerChat.csproj.CoreCompileInputs.cache
+E:\GitHubAssignment\NT106.P12-Group10\Week 4\TCPChat\ServerChat\obj\Debug\ServerChat.exe
+E:\GitHubAssignment\NT106.P12-Group10\Week 4\TCPChat\ServerChat\obj\Debug\ServerChat.pdb

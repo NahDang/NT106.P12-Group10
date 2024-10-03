@@ -1,21 +1,21 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "D:\\NT106-DoAn\\NT106.P12-Group10\\Week 4\\TCPChat\\",
+  "WorkspaceRootPath": "E:\\GitHubAssignment\\NT106.P12-Group10\\Week 4\\TCPChat\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{BB782131-AA7A-4AFE-BF19-C4A113EB6915}|ServerChat\\ServerChat.csproj|d:\\nt106-doan\\nt106.p12-group10\\week 4\\tcpchat\\serverchat\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{BB782131-AA7A-4AFE-BF19-C4A113EB6915}|ServerChat\\ServerChat.csproj|solutionrelative:serverchat\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{BB782131-AA7A-4AFE-BF19-C4A113EB6915}|ServerChat\\ServerChat.csproj|D:\\NT106-DoAn\\NT106.P12-Group10\\Week 4\\TCPChat\\serverchat\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{BB782131-AA7A-4AFE-BF19-C4A113EB6915}|ServerChat\\ServerChat.csproj|solutionrelative:serverchat\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9D6C5900-BA42-4D38-A3FF-72A4A7E01580}|ClientChat\\ClientChat.csproj|D:\\NT106-DoAn\\NT106.P12-Group10\\Week 4\\TCPChat\\clientchat\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{9D6C5900-BA42-4D38-A3FF-72A4A7E01580}|ClientChat\\ClientChat.csproj|E:\\GitHubAssignment\\NT106.P12-Group10\\Week 4\\TCPChat\\clientchat\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{9D6C5900-BA42-4D38-A3FF-72A4A7E01580}|ClientChat\\ClientChat.csproj|solutionrelative:clientchat\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{9D6C5900-BA42-4D38-A3FF-72A4A7E01580}|ClientChat\\ClientChat.csproj|D:\\NT106-DoAn\\NT106.P12-Group10\\Week 4\\TCPChat\\clientchat\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{BB782131-AA7A-4AFE-BF19-C4A113EB6915}|ServerChat\\ServerChat.csproj|e:\\githubassignment\\nt106.p12-group10\\week 4\\tcpchat\\serverchat\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BB782131-AA7A-4AFE-BF19-C4A113EB6915}|ServerChat\\ServerChat.csproj|solutionrelative:serverchat\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BB782131-AA7A-4AFE-BF19-C4A113EB6915}|ServerChat\\ServerChat.csproj|E:\\GitHubAssignment\\NT106.P12-Group10\\Week 4\\TCPChat\\serverchat\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{BB782131-AA7A-4AFE-BF19-C4A113EB6915}|ServerChat\\ServerChat.csproj|solutionrelative:serverchat\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9D6C5900-BA42-4D38-A3FF-72A4A7E01580}|ClientChat\\ClientChat.csproj|E:\\GitHubAssignment\\NT106.P12-Group10\\Week 4\\TCPChat\\clientchat\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{9D6C5900-BA42-4D38-A3FF-72A4A7E01580}|ClientChat\\ClientChat.csproj|solutionrelative:clientchat\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     }
   ],
@@ -26,55 +26,59 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 1,
           "Children": [
             {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Form1.cs",
-              "DocumentMoniker": "D:\\NT106-DoAn\\NT106.P12-Group10\\Week 4\\TCPChat\\ClientChat\\Form1.cs",
-              "RelativeDocumentMoniker": "ClientChat\\Form1.cs",
-              "ToolTip": "D:\\NT106-DoAn\\NT106.P12-Group10\\Week 4\\TCPChat\\ClientChat\\Form1.cs",
-              "RelativeToolTip": "ClientChat\\Form1.cs",
-              "ViewState": "AgIAAEsAAAAAAAAAAAAAAHkAAAA6AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-02T14:07:37.632Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "Form1.cs [Design]",
-              "DocumentMoniker": "D:\\NT106-DoAn\\NT106.P12-Group10\\Week 4\\TCPChat\\ClientChat\\Form1.cs",
-              "RelativeDocumentMoniker": "ClientChat\\Form1.cs",
-              "ToolTip": "D:\\NT106-DoAn\\NT106.P12-Group10\\Week 4\\TCPChat\\ClientChat\\Form1.cs [Design]",
-              "RelativeToolTip": "ClientChat\\Form1.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-02T14:00:15.975Z"
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "Form1.cs",
-              "DocumentMoniker": "D:\\NT106-DoAn\\NT106.P12-Group10\\Week 4\\TCPChat\\ServerChat\\Form1.cs",
+              "DocumentMoniker": "E:\\GitHubAssignment\\NT106.P12-Group10\\Week 4\\TCPChat\\ClientChat\\Form1.cs",
+              "RelativeDocumentMoniker": "ClientChat\\Form1.cs",
+              "ToolTip": "E:\\GitHubAssignment\\NT106.P12-Group10\\Week 4\\TCPChat\\ClientChat\\Form1.cs",
+              "RelativeToolTip": "ClientChat\\Form1.cs",
+              "ViewState": "AgIAACIAAAAAAAAAAAAewEMAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-02T14:07:37.632Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Form1.cs [Design]",
+              "DocumentMoniker": "E:\\GitHubAssignment\\NT106.P12-Group10\\Week 4\\TCPChat\\ClientChat\\Form1.cs",
+              "RelativeDocumentMoniker": "ClientChat\\Form1.cs",
+              "ToolTip": "E:\\GitHubAssignment\\NT106.P12-Group10\\Week 4\\TCPChat\\ClientChat\\Form1.cs [Design]",
+              "RelativeToolTip": "ClientChat\\Form1.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-02T14:00:15.975Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Form1.cs",
+              "DocumentMoniker": "E:\\GitHubAssignment\\NT106.P12-Group10\\Week 4\\TCPChat\\ServerChat\\Form1.cs",
               "RelativeDocumentMoniker": "ServerChat\\Form1.cs",
-              "ToolTip": "D:\\NT106-DoAn\\NT106.P12-Group10\\Week 4\\TCPChat\\ServerChat\\Form1.cs",
+              "ToolTip": "E:\\GitHubAssignment\\NT106.P12-Group10\\Week 4\\TCPChat\\ServerChat\\Form1.cs",
               "RelativeToolTip": "ServerChat\\Form1.cs",
-              "ViewState": "AgIAAKsAAAAAAAAAAAAAABMAAAAkAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAbAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-10-02T13:54:38.671Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "Form1.cs [Design]",
-              "DocumentMoniker": "D:\\NT106-DoAn\\NT106.P12-Group10\\Week 4\\TCPChat\\ServerChat\\Form1.cs",
+              "DocumentMoniker": "E:\\GitHubAssignment\\NT106.P12-Group10\\Week 4\\TCPChat\\ServerChat\\Form1.cs",
               "RelativeDocumentMoniker": "ServerChat\\Form1.cs",
               "ToolTip": "D:\\NT106-DoAn\\NT106.P12-Group10\\Week 4\\TCPChat\\ServerChat\\Form1.cs [Design]",
-              "RelativeToolTip": "ServerChat\\Form1.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-02T13:50:08.913Z",
-              "EditorCaption": " [Design]"
+              "WhenOpened": "2024-10-02T13:50:08.913Z"
             }
           ]
         }
