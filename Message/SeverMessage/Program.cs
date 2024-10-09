@@ -4,7 +4,7 @@ using System.Linq;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace Message
+namespace SeverMessage
 {
     internal static class Program
     {
@@ -16,7 +16,7 @@ namespace Message
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new FormLogin());
+            Application.Run(new Sever());
         }
     }
 }

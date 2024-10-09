@@ -12,9 +12,9 @@ using System.IO;
 using System.Runtime.InteropServices;
 namespace Message
 {
-    public partial class Form1 : Form
+    public partial class FormLogin : Form
     {
-        public Form1()
+        public FormLogin()
         {
             InitializeComponent();
         }
@@ -210,7 +210,7 @@ namespace Message
             else
             {
                 timer1.Stop();
-                Form2 f2=new Form2();
+                FormProfile f2=new FormProfile();
                 f2.emailname=emailloginText.Text;
                 this.Hide();
                 f2.Show();

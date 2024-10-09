@@ -11,3 +11,17 @@ E:\NT106\Message\Message\obj\Debug\Message.csproj.CopyComplete
 E:\NT106\Message\Message\obj\Debug\Message.exe
 E:\NT106\Message\Message\obj\Debug\Message.pdb
 E:\NT106\Message\Message\obj\Debug\Message.Form2.resources
+E:\NT106-DOAN\NT106.P12-Group10\Message\Message\bin\Debug\Message.exe.config
+E:\NT106-DOAN\NT106.P12-Group10\Message\Message\bin\Debug\Message.exe
+E:\NT106-DOAN\NT106.P12-Group10\Message\Message\bin\Debug\Message.pdb
+E:\NT106-DOAN\NT106.P12-Group10\Message\Message\bin\Debug\Guna.UI2.dll
+E:\NT106-DOAN\NT106.P12-Group10\Message\Message\obj\Debug\Message.csproj.AssemblyReference.cache
+E:\NT106-DOAN\NT106.P12-Group10\Message\Message\obj\Debug\Message.Properties.Resources.resources
+E:\NT106-DOAN\NT106.P12-Group10\Message\Message\obj\Debug\Message.csproj.GenerateResource.cache
+E:\NT106-DOAN\NT106.P12-Group10\Message\Message\obj\Debug\Message.csproj.CoreCompileInputs.cache
+E:\NT106-DOAN\NT106.P12-Group10\Message\Message\obj\Debug\Message.csproj.CopyComplete
+E:\NT106-DOAN\NT106.P12-Group10\Message\Message\obj\Debug\Message.exe
+E:\NT106-DOAN\NT106.P12-Group10\Message\Message\obj\Debug\Message.pdb
+E:\NT106-DOAN\NT106.P12-Group10\Message\Message\obj\Debug\Message.FormLogin.resources
+E:\NT106-DOAN\NT106.P12-Group10\Message\Message\obj\Debug\Message.FormProfile.resources
+E:\NT106-DOAN\NT106.P12-Group10\Message\Message\obj\Debug\Message.FormClient.resources
