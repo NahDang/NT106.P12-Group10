@@ -1,0 +1,10 @@
+E:\LTMang\lab02\Bai3\Bai3\bin\Debug\Bai3.exe.config
+E:\LTMang\lab02\Bai3\Bai3\bin\Debug\Bai3.exe
+E:\LTMang\lab02\Bai3\Bai3\bin\Debug\Bai3.pdb
+E:\LTMang\lab02\Bai3\Bai3\obj\Debug\Bai3.csproj.AssemblyReference.cache
+E:\LTMang\lab02\Bai3\Bai3\obj\Debug\Bai3.Bai03.resources
+E:\LTMang\lab02\Bai3\Bai3\obj\Debug\Bai3.Properties.Resources.resources
+E:\LTMang\lab02\Bai3\Bai3\obj\Debug\Bai3.csproj.GenerateResource.cache
+E:\LTMang\lab02\Bai3\Bai3\obj\Debug\Bai3.csproj.CoreCompileInputs.cache
+E:\LTMang\lab02\Bai3\Bai3\obj\Debug\Bai3.exe
+E:\LTMang\lab02\Bai3\Bai3\obj\Debug\Bai3.pdb

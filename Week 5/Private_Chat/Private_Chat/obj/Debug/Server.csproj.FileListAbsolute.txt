@@ -8,3 +8,13 @@ E:\LTMang\Buoi5\Private_Chat\Private_Chat\bin\Debug\Private_Chat.exe
 E:\LTMang\Buoi5\Private_Chat\Private_Chat\bin\Debug\Private_Chat.pdb
 E:\LTMang\Buoi5\Private_Chat\Private_Chat\obj\Debug\Private_Chat.exe
 E:\LTMang\Buoi5\Private_Chat\Private_Chat\obj\Debug\Private_Chat.pdb
+E:\GitHubAssignment\NT106.P12-Group10\Week 5\Private_Chat\Private_Chat\bin\Debug\Private_Chat.exe.config
+E:\GitHubAssignment\NT106.P12-Group10\Week 5\Private_Chat\Private_Chat\bin\Debug\Private_Chat.exe
+E:\GitHubAssignment\NT106.P12-Group10\Week 5\Private_Chat\Private_Chat\bin\Debug\Private_Chat.pdb
+E:\GitHubAssignment\NT106.P12-Group10\Week 5\Private_Chat\Private_Chat\obj\Debug\Server.csproj.AssemblyReference.cache
+E:\GitHubAssignment\NT106.P12-Group10\Week 5\Private_Chat\Private_Chat\obj\Debug\Private_Chat.Server.resources
+E:\GitHubAssignment\NT106.P12-Group10\Week 5\Private_Chat\Private_Chat\obj\Debug\Private_Chat.Properties.Resources.resources
+E:\GitHubAssignment\NT106.P12-Group10\Week 5\Private_Chat\Private_Chat\obj\Debug\Server.csproj.GenerateResource.cache
+E:\GitHubAssignment\NT106.P12-Group10\Week 5\Private_Chat\Private_Chat\obj\Debug\Server.csproj.CoreCompileInputs.cache
+E:\GitHubAssignment\NT106.P12-Group10\Week 5\Private_Chat\Private_Chat\obj\Debug\Private_Chat.exe
+E:\GitHubAssignment\NT106.P12-Group10\Week 5\Private_Chat\Private_Chat\obj\Debug\Private_Chat.pdb

@@ -8,3 +8,13 @@ E:\LTMang\Buoi5\Private_Chat\Client\obj\Debug\Client.csproj.GenerateResource.cac
 E:\LTMang\Buoi5\Private_Chat\Client\obj\Debug\Client.csproj.CoreCompileInputs.cache
 E:\LTMang\Buoi5\Private_Chat\Client\obj\Debug\Client.exe
 E:\LTMang\Buoi5\Private_Chat\Client\obj\Debug\Client.pdb
+E:\GitHubAssignment\NT106.P12-Group10\Week 5\Private_Chat\Client\bin\Debug\Client.exe.config
+E:\GitHubAssignment\NT106.P12-Group10\Week 5\Private_Chat\Client\bin\Debug\Client.exe
+E:\GitHubAssignment\NT106.P12-Group10\Week 5\Private_Chat\Client\bin\Debug\Client.pdb
+E:\GitHubAssignment\NT106.P12-Group10\Week 5\Private_Chat\Client\obj\Debug\Client.csproj.AssemblyReference.cache
+E:\GitHubAssignment\NT106.P12-Group10\Week 5\Private_Chat\Client\obj\Debug\Client.Client.resources
+E:\GitHubAssignment\NT106.P12-Group10\Week 5\Private_Chat\Client\obj\Debug\Client.Properties.Resources.resources
+E:\GitHubAssignment\NT106.P12-Group10\Week 5\Private_Chat\Client\obj\Debug\Client.csproj.GenerateResource.cache
+E:\GitHubAssignment\NT106.P12-Group10\Week 5\Private_Chat\Client\obj\Debug\Client.csproj.CoreCompileInputs.cache
+E:\GitHubAssignment\NT106.P12-Group10\Week 5\Private_Chat\Client\obj\Debug\Client.exe
+E:\GitHubAssignment\NT106.P12-Group10\Week 5\Private_Chat\Client\obj\Debug\Client.pdb
