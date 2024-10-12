@@ -41,3 +41,5 @@ E:\NT106-DOAN\NT106.P12-Group10\Message\Message\obj\Debug\Message.FormLogin.reso
 E:\NT106-DOAN\NT106.P12-Group10\Message\Message\obj\Debug\Message.FormProfile.resources
 E:\NT106-DOAN\NT106.P12-Group10\Message\Message\obj\Debug\Message.FormClient.resources
 >>>>>>> 30db5f230436b84ef424999bc90a1ea2b102befd
+E:\GitHubAssignment\NT106.P12-Group10\Message\Message\obj\Debug\Message.FormLogin.resources
+E:\GitHubAssignment\NT106.P12-Group10\Message\Message\obj\Debug\Message.FormProfile.resources

@@ -1,0 +1,10 @@
+E:\LTMang\Buoi5\Private_Chat\Client\bin\Debug\Client.exe.config
+E:\LTMang\Buoi5\Private_Chat\Client\bin\Debug\Client.exe
+E:\LTMang\Buoi5\Private_Chat\Client\bin\Debug\Client.pdb
+E:\LTMang\Buoi5\Private_Chat\Client\obj\Debug\Client.csproj.AssemblyReference.cache
+E:\LTMang\Buoi5\Private_Chat\Client\obj\Debug\Client.Client.resources
+E:\LTMang\Buoi5\Private_Chat\Client\obj\Debug\Client.Properties.Resources.resources
+E:\LTMang\Buoi5\Private_Chat\Client\obj\Debug\Client.csproj.GenerateResource.cache
+E:\LTMang\Buoi5\Private_Chat\Client\obj\Debug\Client.csproj.CoreCompileInputs.cache
+E:\LTMang\Buoi5\Private_Chat\Client\obj\Debug\Client.exe
+E:\LTMang\Buoi5\Private_Chat\Client\obj\Debug\Client.pdb

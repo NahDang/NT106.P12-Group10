@@ -3,12 +3,12 @@
   "WorkspaceRootPath": "E:\\GitHubAssignment\\NT106.P12-Group10\\Week 5\\Private_Chat\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{6924DDE1-5231-49BD-8839-9D24CDBD6E75}|Private_Chat\\Server.csproj|E:\\GitHubAssignment\\NT106.P12-Group10\\Week 5\\Private_Chat\\private_chat\\server.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6924DDE1-5231-49BD-8839-9D24CDBD6E75}|Private_Chat\\Server.csproj|solutionrelative:private_chat\\server.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{FC11CFAD-9BFD-4916-83B0-95FD204A6C5D}|Client\\Client.csproj|E:\\GitHubAssignment\\NT106.P12-Group10\\Week 5\\Private_Chat\\client\\client.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{FC11CFAD-9BFD-4916-83B0-95FD204A6C5D}|Client\\Client.csproj|solutionrelative:client\\client.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6924DDE1-5231-49BD-8839-9D24CDBD6E75}|Private_Chat\\Server.csproj|e:\\githubassignment\\nt106.p12-group10\\week 5\\private_chat\\private_chat\\server.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6924DDE1-5231-49BD-8839-9D24CDBD6E75}|Private_Chat\\Server.csproj|solutionrelative:private_chat\\server.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{6924DDE1-5231-49BD-8839-9D24CDBD6E75}|Private_Chat\\Server.csproj|E:\\GitHubAssignment\\NT106.P12-Group10\\Week 5\\Private_Chat\\private_chat\\server.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
@@ -19,7 +19,7 @@
       "RelativeMoniker": "D:0:0:{FC11CFAD-9BFD-4916-83B0-95FD204A6C5D}|Client\\Client.csproj|solutionrelative:client\\client.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{6924DDE1-5231-49BD-8839-9D24CDBD6E75}|Private_Chat\\Server.csproj|e:\\githubassignment\\nt106.p12-group10\\week 5\\private_chat\\private_chat\\server.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{6924DDE1-5231-49BD-8839-9D24CDBD6E75}|Private_Chat\\Server.csproj|E:\\GitHubAssignment\\NT106.P12-Group10\\Week 5\\Private_Chat\\private_chat\\server.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{6924DDE1-5231-49BD-8839-9D24CDBD6E75}|Private_Chat\\Server.csproj|solutionrelative:private_chat\\server.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
@@ -34,7 +34,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Bookmark",
@@ -67,26 +67,26 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "Client.cs",
               "DocumentMoniker": "E:\\GitHubAssignment\\NT106.P12-Group10\\Week 5\\Private_Chat\\Client\\Client.cs",
               "RelativeDocumentMoniker": "Client\\Client.cs",
-              "ToolTip": "E:\\GitHubAssignment\\NT106.P12-Group10\\Week 5\\Private_Chat\\Client\\Client.cs*",
-              "RelativeToolTip": "Client\\Client.cs*",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAEcAAAAqAAAAAAAAAA==",
+              "ToolTip": "E:\\GitHubAssignment\\NT106.P12-Group10\\Week 5\\Private_Chat\\Client\\Client.cs",
+              "RelativeToolTip": "Client\\Client.cs",
+              "ViewState": "AgIAAIUAAAAAAAAAAAAmwJgAAAANAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-10-07T13:23:40.989Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "Server.cs",
               "DocumentMoniker": "E:\\GitHubAssignment\\NT106.P12-Group10\\Week 5\\Private_Chat\\Private_Chat\\Server.cs",
               "RelativeDocumentMoniker": "Private_Chat\\Server.cs",
               "ToolTip": "E:\\GitHubAssignment\\NT106.P12-Group10\\Week 5\\Private_Chat\\Private_Chat\\Server.cs",
               "RelativeToolTip": "Private_Chat\\Server.cs",
-              "ViewState": "AgIAAKMAAAAAAAAAAADwv8IAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAG4AAAAAAAAAAAAswDUAAAARAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-10-07T13:14:52.535Z",
               "EditorCaption": ""
@@ -97,8 +97,8 @@
               "Title": "Client.cs [Design]",
               "DocumentMoniker": "E:\\GitHubAssignment\\NT106.P12-Group10\\Week 5\\Private_Chat\\Client\\Client.cs",
               "RelativeDocumentMoniker": "Client\\Client.cs",
-              "ToolTip": "E:\\GitHubAssignment\\NT106.P12-Group10\\Week 5\\Private_Chat\\Client\\Client.cs [Design]*",
-              "RelativeToolTip": "Client\\Client.cs [Design]*",
+              "ToolTip": "E:\\GitHubAssignment\\NT106.P12-Group10\\Week 5\\Private_Chat\\Client\\Client.cs [Design]",
+              "RelativeToolTip": "Client\\Client.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-10-07T13:10:11.849Z",
               "EditorCaption": " [Design]"
@@ -113,8 +113,7 @@
               "RelativeToolTip": "Private_Chat\\Server.Designer.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAABDAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-07T13:18:25.854Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-10-07T13:18:25.854Z"
             }
           ]
         }
