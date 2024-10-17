@@ -59,6 +59,7 @@ namespace Message
             dataReader.Read();
             if (dataReader.HasRows)
             {
+                username = dataReader["username"].ToString();
                 label2.Text = dataReader["email"].ToString();
                 guna2TextBox1.Text = dataReader["username"].ToString();
                 guna2TextBox2.Text = dataReader["email"].ToString();
@@ -83,7 +84,11 @@ namespace Message
             panel5.Visible = false;
             panel7.Visible = false;
             con.Close();
-
+            lsvMessage1.View = View.Details;
+            lsvMessage1.Columns.Add("User", lsvMessage1.Width / 2 - 5, HorizontalAlignment.Left);  // Cột tin nhắn người khác
+            lsvMessage1.Columns.Add("Me", lsvMessage1.Width / 2 - 5, HorizontalAlignment.Right);  // Cột tin nhắn của bạn
+            lsvMessage1.HeaderStyle = ColumnHeaderStyle.None;  // Ẩn tiêu đề
+            lsvMessage1.Font = new Font("Times New Roman", 14, FontStyle.Regular); // Thay đổi font chữ
         }
         private bool check;
         private void timer1_Tick(object sender, EventArgs e)
@@ -186,7 +191,7 @@ namespace Message
             if (!string.IsNullOrEmpty(txtMessage1.Text))
             {
                 string fullMessage = $"{username}: {txtMessage1.Text}";
-                byte[] encryptedMessage = EncryptMessage(txtMessage1.Text, aesKey);
+                byte[] encryptedMessage = EncryptMessage(fullMessage, aesKey);
                 string encryptedMessageBase64 = Convert.ToBase64String(encryptedMessage);
                 string messageToSend = "MSG:" + encryptedMessageBase64;
                 byte[] dataToSend = Encoding.UTF8.GetBytes(messageToSend);
@@ -239,7 +244,7 @@ namespace Message
                             byte[] encryptedData = Convert.FromBase64String(encryptedMessageBase64);
                             // Decrypt message using client's AES key
                             string decryptedMessage = DecryptMessage(encryptedData, aesKey);
-                            AddMessage("Client: " + decryptedMessage); // Display decrypted message
+                            AddMessage(decryptedMessage); // Display decrypted message
 
                         }
                     }
@@ -296,20 +301,24 @@ namespace Message
         private StringBuilder messages = new StringBuilder();
         void AddMessage(string message)
         {
-            messages.AppendLine(message);
+            ListViewItem item;
 
-            // Cập nhật lại nội dung của ListView
-            lsvMessage1.Items.Clear(); // Xóa tất cả mục hiện có
-            foreach (string msg in messages.ToString().Split(new[] { Environment.NewLine }, StringSplitOptions.None))
+            if (message.StartsWith($"{username}:")) // Tin nhắn của bạn
             {
-                if (!string.IsNullOrEmpty(msg))
-                {
-                    lsvMessage1.Items.Add(new ListViewItem() { Text = msg });
-                }
+                item = new ListViewItem(new[] { "", message });
+                item.ForeColor = Color.White;
+                item.Font = new Font("Times New Roman", 14, FontStyle.Regular); // Thay đổi font chữ
+            }
+            else // Tin nhắn từ người khác
+            {
+                item = new ListViewItem(new[] { message, "" });
+                item.ForeColor = Color.White;
+                item.Font = new Font("Times New Roman", 14, FontStyle.Regular); // Thay đổi font chữ
             }
 
-            txtMessage1.Clear();
+            lsvMessage1.Items.Add(item);  // Thêm vào ListView
         }
+
         byte[] Serialize(object obj)
         {
             MemoryStream stream = new MemoryStream();

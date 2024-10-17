@@ -159,7 +159,7 @@
   <data name="btnFile.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         iVBORw0KGgoAAAANSUhEUgAAACsAAAApCAYAAACsldDLAAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAO
-        vQAADr0BR/uQrQAAAmZJREFUWEftl91LVEEYh7vsH+hC6Dq6COkipJvKQIQEBS9W2haKlkJFKSINi0gi
+        vAAADrwBlbxySQAAAmZJREFUWEftl91LVEEYh7vsH+hC6Dq6COkipJvKQIQEBS9W2haKlkJFKSINi0gi
         KoygSCoqo1IskcpECVsiS2TtQ0kk+8AioosIXV00zNXd/cXvZWbpg13PfsxpF84DA8t7ODPPzHl35p0V
         yCEcWVM4sqZwZE3hyJoiJdmlpTBmgrMITAdTbsHZOUSjUdWjNZKSZee+p0PYUOTGytUFaTdP9RF8+fpN
         9b48Scn6X45izcYy5G9x4VjTJZy9eCvlVl1/EqvWFqJizyFMTk2rERJjWTa0uIj64+ewvrACY28nVDR1
@@ -272,6 +272,9 @@
         AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAD//2Q==
 </value>
   </data>
+  <metadata name="guna2BorderlessForm1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>120, 17</value>
+  </metadata>
   <metadata name="$this.TrayHeight" type="System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
     <value>25</value>
   </metadata>

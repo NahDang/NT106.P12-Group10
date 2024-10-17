@@ -30,6 +30,9 @@
         {
             this.components = new System.ComponentModel.Container();
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(FormProfile));
+            System.Windows.Forms.ListViewItem listViewItem2 = new System.Windows.Forms.ListViewItem(new string[] {
+            "",
+            ""}, -1, System.Drawing.Color.Empty, System.Drawing.Color.Empty, new System.Drawing.Font("Times New Roman", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0))));
             this.label2 = new System.Windows.Forms.Label();
             this.panel1 = new System.Windows.Forms.Panel();
             this.panel2 = new System.Windows.Forms.Panel();
@@ -63,6 +66,7 @@
             this.btnSend = new Guna.UI2.WinForms.Guna2Button();
             this.txtMessage1 = new Guna.UI2.WinForms.Guna2TextBox();
             this.lsvMessage1 = new System.Windows.Forms.ListView();
+            this.guna2BorderlessForm1 = new Guna.UI2.WinForms.Guna2BorderlessForm(this.components);
             this.panel2.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.panel3.SuspendLayout();
@@ -500,7 +504,7 @@
             // txtMessage1
             // 
             this.txtMessage1.Cursor = System.Windows.Forms.Cursors.IBeam;
-            this.txtMessage1.DefaultText = "Type Here";
+            this.txtMessage1.DefaultText = "";
             this.txtMessage1.DisabledState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(208)))), ((int)(((byte)(208)))), ((int)(((byte)(208)))));
             this.txtMessage1.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(226)))), ((int)(((byte)(226)))), ((int)(((byte)(226)))));
             this.txtMessage1.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
@@ -512,7 +516,7 @@
             this.txtMessage1.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.txtMessage1.Name = "txtMessage1";
             this.txtMessage1.PasswordChar = '\0';
-            this.txtMessage1.PlaceholderText = "";
+            this.txtMessage1.PlaceholderText = "Type Here";
             this.txtMessage1.SelectedText = "";
             this.txtMessage1.Size = new System.Drawing.Size(766, 53);
             this.txtMessage1.TabIndex = 1;
@@ -521,12 +525,20 @@
             // 
             this.lsvMessage1.BackColor = System.Drawing.Color.DarkSlateGray;
             this.lsvMessage1.HideSelection = false;
+            this.lsvMessage1.Items.AddRange(new System.Windows.Forms.ListViewItem[] {
+            listViewItem2});
             this.lsvMessage1.Location = new System.Drawing.Point(6, 14);
             this.lsvMessage1.Name = "lsvMessage1";
             this.lsvMessage1.Size = new System.Drawing.Size(938, 560);
             this.lsvMessage1.TabIndex = 0;
             this.lsvMessage1.UseCompatibleStateImageBehavior = false;
-            this.lsvMessage1.View = System.Windows.Forms.View.List;
+            this.lsvMessage1.View = System.Windows.Forms.View.Tile;
+            // 
+            // guna2BorderlessForm1
+            // 
+            this.guna2BorderlessForm1.ContainerControl = this;
+            this.guna2BorderlessForm1.DockIndicatorTransparencyValue = 0.6D;
+            this.guna2BorderlessForm1.TransparentWhileDrag = true;
             // 
             // FormProfile
             // 
@@ -595,5 +607,6 @@
         private Guna.UI2.WinForms.Guna2Button btnSend;
         private Guna.UI2.WinForms.Guna2TextBox txtMessage1;
         private System.Windows.Forms.ListView lsvMessage1;
+        private Guna.UI2.WinForms.Guna2BorderlessForm guna2BorderlessForm1;
     }
 }
