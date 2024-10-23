@@ -1,0 +1,61 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "E:\\LTMang\\lab02\\Bai1\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{576255B4-8F4C-4B69-BB3B-DCFF2AA46F2A}|Bai1\\Bai1.csproj|e:\\ltmang\\lab02\\bai1\\bai1\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{576255B4-8F4C-4B69-BB3B-DCFF2AA46F2A}|Bai1\\Bai1.csproj|solutionrelative:bai1\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{576255B4-8F4C-4B69-BB3B-DCFF2AA46F2A}|Bai1\\Bai1.csproj|e:\\ltmang\\lab02\\bai1\\bai1\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{576255B4-8F4C-4B69-BB3B-DCFF2AA46F2A}|Bai1\\Bai1.csproj|solutionrelative:bai1\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Form1.cs",
+              "DocumentMoniker": "E:\\LTMang\\lab02\\Bai1\\Bai1\\Form1.cs",
+              "RelativeDocumentMoniker": "Bai1\\Form1.cs",
+              "ToolTip": "E:\\LTMang\\lab02\\Bai1\\Bai1\\Form1.cs",
+              "RelativeToolTip": "Bai1\\Form1.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-23T05:23:59.577Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Form1.cs [Design]",
+              "DocumentMoniker": "E:\\LTMang\\lab02\\Bai1\\Bai1\\Form1.cs",
+              "RelativeDocumentMoniker": "Bai1\\Form1.cs",
+              "ToolTip": "E:\\LTMang\\lab02\\Bai1\\Bai1\\Form1.cs [Design]",
+              "RelativeToolTip": "Bai1\\Form1.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-23T04:49:16.14Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{e5c86464-96be-4d7c-9a8b-abcb3bbf5f92}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
