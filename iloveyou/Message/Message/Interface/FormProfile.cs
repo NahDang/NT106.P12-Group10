@@ -18,6 +18,8 @@ using System.Threading;
 using System.Security.Cryptography;
 using Message;
 using System.Net.NetworkInformation;
+using System.Data.SQLite;
+using static System.Windows.Forms.VisualStyles.VisualStyleElement.ListView;
 namespace Message
 {
     public partial class FormProfile : Form
@@ -38,7 +40,7 @@ namespace Message
         private extern static void ReleaseCapture();
         [DllImport("user32.DLL", EntryPoint = "SendMessage")]
         private extern static void SendMessage(System.IntPtr one, int two, int three, int four);
-        string constring = "Data Source=LAPTOP-AA3MGNUM\\SQLEXPRESS;Initial Catalog=dd;Integrated Security=True;TrustServerCertificate=True";
+        string constring = "Data Source=database.db;Version=3;";  // Chuỗi kết nối SQLite
         private void guna2CircleButton1_Click(object sender, EventArgs e)
         {
             FormLogin f1=new FormLogin();
@@ -51,32 +53,32 @@ namespace Message
         {
             label2.Text = emailname;
             byte[] getimage = new byte[0];
-            SqlConnection con= new SqlConnection(constring);
+            SQLiteConnection con = new SQLiteConnection(constring);
             con.Open();
-            string q = "Select * from Login WHERE email = '" + label2.Text + "'";
-            SqlCommand cmd= new SqlCommand(q, con);
-            SqlDataReader dataReader = cmd.ExecuteReader();
+            string q = "SELECT * FROM Login WHERE email = '" + label2.Text + "'";
+            SQLiteCommand cmd = new SQLiteCommand(q, con);
+            SQLiteDataReader dataReader = cmd.ExecuteReader();
             dataReader.Read();
             if (dataReader.HasRows)
             {
-                username = dataReader["username"].ToString();
-                label2.Text = dataReader["email"].ToString();
-                guna2TextBox1.Text = dataReader["username"].ToString();
-                guna2TextBox2.Text = dataReader["email"].ToString();
-                guna2TextBox3.Text = dataReader["password"].ToString();
-                guna2TextBox4.Text= dataReader["username"].ToString();
+                username = dataReader["username"]?.ToString();
+                label2.Text = dataReader["email"]?.ToString();
+                guna2TextBox1.Text = dataReader["username"]?.ToString();
+                guna2TextBox2.Text = dataReader["email"]?.ToString();
+                guna2TextBox3.Text = dataReader["password"]?.ToString();
+                guna2TextBox4.Text = dataReader["username"]?.ToString();
                 byte[] images = (byte[])dataReader["image"];
                 if (images == null)
                 {
-                    guna2CirclePictureBox1.Image= null;
-                    guna2CirclePictureBox2.Image= null;
+                    guna2CirclePictureBox1.Image = null;
+                    guna2CirclePictureBox2.Image = null;
 
                 }
                 else
                 {
                     MemoryStream me = new MemoryStream(images);
-                    guna2CirclePictureBox1.Image=Image.FromStream(me);
-                    guna2CirclePictureBox2.Image= Image.FromStream(me);
+                    guna2CirclePictureBox1.Image = Image.FromStream(me);
+                    guna2CirclePictureBox2.Image = Image.FromStream(me);
 
                 }
             }
@@ -238,6 +240,13 @@ namespace Message
                     if (bytesRead > 0)
                     {
                         string message = Encoding.UTF8.GetString(data.Take(bytesRead).ToArray());
+                        if (message.StartsWith("IMG:"))
+                        {
+                            string base64Image = message.Substring(4);
+                            byte[] imageBytes = Convert.FromBase64String(base64Image);
+                            ShowImage(imageBytes);  // Hiển thị ảnh
+                            
+                        }
                         if (message.StartsWith("MSG:"))
                         {
                             string encryptedMessageBase64 = message.Substring(4);
@@ -255,6 +264,27 @@ namespace Message
                 Close();
             }
         }
+        void ShowImage(byte[] imageBytes)
+        {
+            using (MemoryStream ms = new MemoryStream(imageBytes))
+            {
+                Image image = Image.FromStream(ms);
+                Form imageForm = new Form
+                {
+                    Text = "Ảnh đã nhận",
+                    Size = new Size(400, 400)
+                };
+                PictureBox pictureBox = new PictureBox
+                {
+                    Dock = DockStyle.Fill,
+                    Image = image,
+                    SizeMode = PictureBoxSizeMode.Zoom
+                };
+                imageForm.Controls.Add(pictureBox);
+                imageForm.ShowDialog();
+            }
+        }
+
         string DecryptMessage(byte[] cipherText, byte[] key)
         {
             using (Aes aesAlg = Aes.Create())
@@ -281,23 +311,7 @@ namespace Message
             }
         }
 
-        void ReceiveFile(string fileName)
-        {
-            try
-            {
-                byte[] fileData = new byte[1024 * 5000];
-                int bytesRead = client.Receive(fileData);
-                if (bytesRead > 0)
-                {
-                    File.WriteAllBytes(Path.Combine("ReceivedFiles", fileName), fileData.Take(bytesRead).ToArray());
-                    AddMessage($"File received: {fileName}");
-                }
-            }
-            catch (Exception ex)
-            {
-                AddMessage("Error receiving file: " + ex.Message);
-            }
-        }
+        
         private StringBuilder messages = new StringBuilder();
         void AddMessage(string message)
         {
@@ -332,41 +346,65 @@ namespace Message
             BinaryFormatter formatter = new BinaryFormatter();
             return formatter.Deserialize(stream);
         }
-        async Task SendFileAsync(string filePath)
-        {
-            if (client != null && client.Connected)
-            {
-                string fileName = Path.GetFileName(filePath);
-                byte[] fileHeader = Serialize("FILE:" + fileName);
-                byte[] fileData = File.ReadAllBytes(filePath);
-
-                client.Send(fileHeader);
-
-                await Task.Run(() => client.Send(fileData));
-
-                AddMessage($"File sent: {fileName}");
-            }
-        }
+       
 
         private void btnSend_Click_1(object sender, EventArgs e)
         {
             Send();
         }
 
-        private async void btnFile_Click_1(object sender, EventArgs e)
-        {
-
-            OpenFileDialog ofd = new OpenFileDialog();
-            if (ofd.ShowDialog() == DialogResult.OK)
-            {
-                await SendFileAsync(ofd.FileName);
-            }
-        }
+        
 
         private void btnStart_Click(object sender, EventArgs e)
         {
             panel7.Visible = true;
             Connect();
+        }
+
+        private void btnimage_Click(object sender, EventArgs e)
+        {
+            using (OpenFileDialog openFileDialog = new OpenFileDialog())
+            {
+                openFileDialog.Filter = "Image Files (*.jpg; *.jpeg; *.png)|*.jpg;*.jpeg;*.png";
+
+                if (openFileDialog.ShowDialog() == DialogResult.OK)
+                {
+                    try
+                    {
+                        byte[] imageBytes = File.ReadAllBytes(openFileDialog.FileName);
+                        SendImage(imageBytes);  // Gọi hàm gửi ảnh
+                        AddMessage("Send an image");
+                    }
+                    catch (Exception ex)
+                    {
+                        MessageBox.Show($"Lỗi khi gửi ảnh: {ex.Message}", "Lỗi", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                    }
+                }
+            }
+        }
+        void SendImage(byte[] imageBytes)
+        {
+            try
+            {
+                // Chuyển đổi mảng byte ảnh thành chuỗi Base64
+                string base64Image = Convert.ToBase64String(imageBytes);
+
+                // Thêm prefix "IMG:" để nhận diện dữ liệu là ảnh
+                string messageToSend = "IMG:" + base64Image;
+
+                // Chuyển chuỗi thành mảng byte và gửi qua socket
+                byte[] dataToSend = Encoding.UTF8.GetBytes(messageToSend);
+
+                client.Send(dataToSend);  // Gửi dữ liệu ảnh qua socket
+            }
+            catch (SocketException ex)
+            {
+                MessageBox.Show($"Lỗi kết nối: {ex.Message}", "Lỗi Socket", MessageBoxButtons.OK, MessageBoxIcon.Error);
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show($"Lỗi không xác định: {ex.Message}", "Lỗi", MessageBoxButtons.OK, MessageBoxIcon.Error);
+            }
         }
     }
 }

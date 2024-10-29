@@ -64,3 +64,12 @@ E:\NT106-Group10\NT106.P12-Group10\iloveyou\Message\Message\obj\Debug\Message.cs
 E:\NT106-Group10\NT106.P12-Group10\iloveyou\Message\Message\obj\Debug\Message.csproj.CopyComplete
 E:\NT106-Group10\NT106.P12-Group10\iloveyou\Message\Message\obj\Debug\Message.exe
 E:\NT106-Group10\NT106.P12-Group10\iloveyou\Message\Message\obj\Debug\Message.pdb
+E:\iloveyou\Message\Message\obj\Debug\Message.ImageForm.resources
+E:\iloveyou\Message\Message\bin\Debug\EntityFramework.dll
+E:\iloveyou\Message\Message\bin\Debug\EntityFramework.SqlServer.dll
+E:\iloveyou\Message\Message\bin\Debug\System.Data.SQLite.dll
+E:\iloveyou\Message\Message\bin\Debug\System.Data.SQLite.EF6.dll
+E:\iloveyou\Message\Message\bin\Debug\System.Data.SQLite.Linq.dll
+E:\iloveyou\Message\Message\bin\Debug\EntityFramework.xml
+E:\iloveyou\Message\Message\bin\Debug\EntityFramework.SqlServer.xml
+E:\iloveyou\Message\Message\bin\Debug\System.Data.SQLite.xml

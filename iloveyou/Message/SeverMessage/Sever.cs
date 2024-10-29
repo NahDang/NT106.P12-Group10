@@ -113,6 +113,24 @@ namespace SeverMessage
                                 }
                             }
                         }
+                        else if (message.StartsWith("IMG:")) // New handling for images
+                        {
+                            string base64Image = message.Substring(4);
+                            byte[] imageBytes = Convert.FromBase64String(base64Image);
+                            AddMessage("Client " + client.RemoteEndPoint.ToString() + " sent an image.");
+
+                            // Send the image to all other clients
+                            foreach (Socket otherClient in clientList)
+                            {
+                                if (otherClient != client) // Do not send back to the sender
+                                {
+                                    string messageToSend = "IMG:" + base64Image;
+                                    byte[] dataToSend = Encoding.UTF8.GetBytes(messageToSend);
+                                    otherClient.Send(dataToSend);
+                                    AddMessage("Send an image");
+                                }
+                            }
+                        }
                     }
                     else
                     {
@@ -183,23 +201,7 @@ namespace SeverMessage
             }
         }
 
-        void ReceiveFile(Socket client, string fileName)
-        {
-            try
-            {
-                byte[] fileData = new byte[1024 * 5000];
-                int bytesRead = client.Receive(fileData);
-                if (bytesRead > 0)
-                {
-                    File.WriteAllBytes(Path.Combine("ReceivedFiles", fileName), fileData.Take(bytesRead).ToArray());
-                    AddMessage($"File received: {fileName}");
-                }
-            }
-            catch (Exception ex)
-            {
-                AddMessage("Error receiving file: " + ex.Message);
-            }
-        }
+        
         
         void AddMessage(string s)
         {
@@ -221,20 +223,43 @@ namespace SeverMessage
         async Task SendFileAsync(string filePath)
         {
             string fileName = Path.GetFileName(filePath);
-            byte[] fileHeader = Serialize("FILE:" + fileName);
             byte[] fileData = File.ReadAllBytes(filePath);
+
+            // Determine if the file is an image or other type
+            string filePrefix;
+            if (IsImageFile(fileName))
+            {
+                filePrefix = "IMG:";
+            }
+            else
+            {
+                filePrefix = "FILE:";
+            }
+
+            // Combine prefix and file name for sending
+            string fileHeaderMessage = filePrefix + fileName;
+            byte[] fileHeader = Serialize(fileHeaderMessage);
 
             foreach (Socket client in clientList)
             {
                 if (client != null && client.Connected)
                 {
+                    // Send the file header
                     client.Send(fileHeader);
 
+                    // Send the file data
                     await Task.Run(() => client.Send(fileData));
                 }
             }
 
             AddMessage($"File sent: {fileName}");
+        }
+        // Method to check if the file is an image based on its extension
+        private bool IsImageFile(string fileName)
+        {
+            string[] imageExtensions = { ".jpg", ".jpeg", ".png", ".gif", ".bmp", ".tiff" };
+            string fileExtension = Path.GetExtension(fileName).ToLower();
+            return imageExtensions.Contains(fileExtension);
         }
 
 

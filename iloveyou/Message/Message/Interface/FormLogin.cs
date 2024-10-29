@@ -10,6 +10,7 @@ using System.Windows.Forms;
 using System.Data.SqlClient;
 using System.IO;
 using System.Runtime.InteropServices;
+using System.Data.SQLite;
 namespace Message
 {
     public partial class FormLogin : Form
@@ -24,7 +25,7 @@ namespace Message
         private extern static void SendMessage(System.IntPtr one, int two, int three, int four);
         Color Btn = Color.SpringGreen;
         Color bb = Color.Gray;
-        string constring = "Data Source=LAPTOP-AA3MGNUM\\SQLEXPRESS;Initial Catalog=dd;Integrated Security=True;TrustServerCertificate=True";
+        string constring = "Data Source=database.db;Version=3;";
         private void guna2Button1_Click(object sender, EventArgs e)
         {
             panel1.BringToFront();
@@ -101,15 +102,15 @@ namespace Message
                 }
             try
             {
-                SqlConnection con = new SqlConnection(constring);
-                string q = "insert into Login(username, email, password, confirmpassword, image)" + "values(@username, @email, @password, @confirmpassword, @image)";
-                SqlCommand cmd = new SqlCommand(q, con);
+                SQLiteConnection con = new SQLiteConnection(constring);
+                string q = "insert into Login(username, email, password, confirmpass, image)" + "values(@username, @email, @password, @confirmpass, @image)";
+                SQLiteCommand cmd = new SQLiteCommand(q, con);
                 MemoryStream me = new MemoryStream();
                 guna2CirclePictureBox1.Image.Save(me, guna2CirclePictureBox1.Image.RawFormat);
                 cmd.Parameters.AddWithValue("@username", usernameText.Text);
                 cmd.Parameters.AddWithValue("@email", emailText.Text);
                 cmd.Parameters.AddWithValue("@password", passwordText.Text);
-                cmd.Parameters.AddWithValue("@confirmpassword", confirmText.Text);
+                cmd.Parameters.AddWithValue("@confirmpass", confirmText.Text);
                 cmd.Parameters.AddWithValue("@image", me.ToArray());
                 con.Open();
                 cmd.ExecuteNonQuery();
@@ -158,11 +159,11 @@ namespace Message
             {
                 errorProvider1.SetError(passwordloginText, string.Empty);
             }
-            SqlConnection con = new SqlConnection(constring);
+            SQLiteConnection con = new SQLiteConnection(constring);
             con.Open();
             string q = "Select * from login WHERE email = '" + emailloginText.Text + "'AND password = '" + passwordloginText.Text + "'";
-            SqlCommand cmd = new SqlCommand(q, con);
-            SqlDataReader dataReader;
+            SQLiteCommand cmd = new SQLiteCommand(q, con);
+            SQLiteDataReader dataReader;
             dataReader = cmd.ExecuteReader();
             if (dataReader.HasRows == true)
             {

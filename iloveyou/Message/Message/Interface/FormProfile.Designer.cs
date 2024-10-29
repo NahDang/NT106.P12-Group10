@@ -30,7 +30,7 @@
         {
             this.components = new System.ComponentModel.Container();
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(FormProfile));
-            System.Windows.Forms.ListViewItem listViewItem2 = new System.Windows.Forms.ListViewItem(new string[] {
+            System.Windows.Forms.ListViewItem listViewItem1 = new System.Windows.Forms.ListViewItem(new string[] {
             "",
             ""}, -1, System.Drawing.Color.Empty, System.Drawing.Color.Empty, new System.Drawing.Font("Times New Roman", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0))));
             this.label2 = new System.Windows.Forms.Label();
@@ -62,7 +62,7 @@
             this.guna2TextBox4 = new Guna.UI2.WinForms.Guna2TextBox();
             this.label6 = new System.Windows.Forms.Label();
             this.panel7 = new System.Windows.Forms.Panel();
-            this.btnFile = new Guna.UI2.WinForms.Guna2Button();
+            this.btnimage = new Guna.UI2.WinForms.Guna2Button();
             this.btnSend = new Guna.UI2.WinForms.Guna2Button();
             this.txtMessage1 = new Guna.UI2.WinForms.Guna2TextBox();
             this.lsvMessage1 = new System.Windows.Forms.ListView();
@@ -455,7 +455,7 @@
             // 
             // panel7
             // 
-            this.panel7.Controls.Add(this.btnFile);
+            this.panel7.Controls.Add(this.btnimage);
             this.panel7.Controls.Add(this.btnSend);
             this.panel7.Controls.Add(this.txtMessage1);
             this.panel7.Controls.Add(this.lsvMessage1);
@@ -464,22 +464,22 @@
             this.panel7.Size = new System.Drawing.Size(944, 650);
             this.panel7.TabIndex = 9;
             // 
-            // btnFile
+            // btnimage
             // 
-            this.btnFile.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
-            this.btnFile.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
-            this.btnFile.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
-            this.btnFile.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
-            this.btnFile.FillColor = System.Drawing.Color.DarkSlateGray;
-            this.btnFile.Font = new System.Drawing.Font("Segoe UI", 9F);
-            this.btnFile.ForeColor = System.Drawing.Color.White;
-            this.btnFile.Image = ((System.Drawing.Image)(resources.GetObject("btnFile.Image")));
-            this.btnFile.ImageSize = new System.Drawing.Size(50, 50);
-            this.btnFile.Location = new System.Drawing.Point(3, 580);
-            this.btnFile.Name = "btnFile";
-            this.btnFile.Size = new System.Drawing.Size(60, 54);
-            this.btnFile.TabIndex = 3;
-            this.btnFile.Click += new System.EventHandler(this.btnFile_Click_1);
+            this.btnimage.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
+            this.btnimage.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
+            this.btnimage.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
+            this.btnimage.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
+            this.btnimage.FillColor = System.Drawing.Color.DarkSlateGray;
+            this.btnimage.Font = new System.Drawing.Font("Segoe UI", 9F);
+            this.btnimage.ForeColor = System.Drawing.Color.White;
+            this.btnimage.Image = ((System.Drawing.Image)(resources.GetObject("btnimage.Image")));
+            this.btnimage.ImageSize = new System.Drawing.Size(50, 50);
+            this.btnimage.Location = new System.Drawing.Point(3, 580);
+            this.btnimage.Name = "btnimage";
+            this.btnimage.Size = new System.Drawing.Size(60, 54);
+            this.btnimage.TabIndex = 3;
+            this.btnimage.Click += new System.EventHandler(this.btnimage_Click);
             // 
             // btnSend
             // 
@@ -526,7 +526,7 @@
             this.lsvMessage1.BackColor = System.Drawing.Color.DarkSlateGray;
             this.lsvMessage1.HideSelection = false;
             this.lsvMessage1.Items.AddRange(new System.Windows.Forms.ListViewItem[] {
-            listViewItem2});
+            listViewItem1});
             this.lsvMessage1.Location = new System.Drawing.Point(6, 14);
             this.lsvMessage1.Name = "lsvMessage1";
             this.lsvMessage1.Size = new System.Drawing.Size(938, 560);
@@ -603,7 +603,7 @@
         private System.Windows.Forms.Label label7;
         private System.Windows.Forms.TextBox textBox2;
         private System.Windows.Forms.Panel panel7;
-        private Guna.UI2.WinForms.Guna2Button btnFile;
+        private Guna.UI2.WinForms.Guna2Button btnimage;
         private Guna.UI2.WinForms.Guna2Button btnSend;
         private Guna.UI2.WinForms.Guna2TextBox txtMessage1;
         private System.Windows.Forms.ListView lsvMessage1;
