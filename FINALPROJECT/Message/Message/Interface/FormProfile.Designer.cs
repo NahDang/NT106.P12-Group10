@@ -62,13 +62,13 @@
             this.guna2TextBox4 = new Guna.UI2.WinForms.Guna2TextBox();
             this.label6 = new System.Windows.Forms.Label();
             this.panel7 = new System.Windows.Forms.Panel();
+            this.emoji = new System.Windows.Forms.ComboBox();
             this.btnimage = new Guna.UI2.WinForms.Guna2Button();
             this.btnSend = new Guna.UI2.WinForms.Guna2Button();
             this.txtMessage1 = new Guna.UI2.WinForms.Guna2TextBox();
             this.lsvMessage1 = new System.Windows.Forms.ListView();
             this.guna2BorderlessForm1 = new Guna.UI2.WinForms.Guna2BorderlessForm(this.components);
             this.guna2TextBox5 = new Guna.UI2.WinForms.Guna2TextBox();
-            this.emoji = new System.Windows.Forms.ComboBox();
             this.panel2.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.panel3.SuspendLayout();
@@ -467,6 +467,21 @@
             this.panel7.Size = new System.Drawing.Size(944, 650);
             this.panel7.TabIndex = 9;
             // 
+            // emoji
+            // 
+            this.emoji.FormattingEnabled = true;
+            this.emoji.Items.AddRange(new object[] {
+            "😄",
+            "😂",
+            "😠",
+            "😢",
+            "😭"});
+            this.emoji.Location = new System.Drawing.Point(61, 610);
+            this.emoji.Name = "emoji";
+            this.emoji.Size = new System.Drawing.Size(47, 24);
+            this.emoji.TabIndex = 4;
+            this.emoji.SelectedIndexChanged += new System.EventHandler(this.emoji_SelectedIndexChanged);
+            // 
             // btnimage
             // 
             this.btnimage.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
@@ -560,24 +575,9 @@
             this.guna2TextBox5.PasswordChar = '\0';
             this.guna2TextBox5.PlaceholderText = "";
             this.guna2TextBox5.SelectedText = "";
-            this.guna2TextBox5.Size = new System.Drawing.Size(113, 27);
+            this.guna2TextBox5.Size = new System.Drawing.Size(165, 27);
             this.guna2TextBox5.TabIndex = 10;
             this.guna2TextBox5.Visible = false;
-            // 
-            // emoji
-            // 
-            this.emoji.FormattingEnabled = true;
-            this.emoji.Items.AddRange(new object[] {
-            "😄",
-            "😂",
-            "😠",
-            "😢",
-            "😭"});
-            this.emoji.Location = new System.Drawing.Point(61, 610);
-            this.emoji.Name = "emoji";
-            this.emoji.Size = new System.Drawing.Size(47, 24);
-            this.emoji.TabIndex = 4;
-            this.emoji.SelectedIndexChanged += new System.EventHandler(this.emoji_SelectedIndexChanged);
             // 
             // FormProfile
             // 
